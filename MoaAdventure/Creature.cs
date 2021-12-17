@@ -6,8 +6,11 @@ namespace MoaAdventure
 {
     class Creature
     {
-        private string _name;
+        protected string _name;
         private int _speed;
+        private string texture;
+        private int PositionX;
+        private int PositionY;
 
         void Attack() 
         { }

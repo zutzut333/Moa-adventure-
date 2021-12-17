@@ -6,19 +6,30 @@ namespace MoaAdventure
 {
     public class Game1 : Game
     {
+        public const int WINDOW_WIDTH = 14 * 64;
+        public const int WINDOW_HEIGHT = 10 * 64;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        //World world;
+        //Hero hero;
+        Vector2 heroPosition;
+        Texture2D heroTexture;
+        float heroSpeed;
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = false;
+            _graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
+            _graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+           // world = new World();
+            heroPosition = new Vector2(64, 64);
 
             base.Initialize();
         }
@@ -26,7 +37,7 @@ namespace MoaAdventure
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            heroTexture = Content.Load<Texture2D>("C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Perso face");
             // TODO: use this.Content to load your game content here
         }
 
@@ -35,6 +46,31 @@ namespace MoaAdventure
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            var kstate = Keyboard.GetState();
+
+
+
+            if (kstate.IsKeyDown(Keys.Down))
+                heroPosition.Y += heroSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (kstate.IsKeyDown(Keys.Left))
+                heroPosition.X -= heroSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (kstate.IsKeyDown(Keys.Right))
+                heroPosition.X += heroSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (kstate.IsKeyDown(Keys.Up))
+                heroPosition.Y -= heroSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (heroPosition.X > _graphics.PreferredBackBufferWidth - heroTexture.Width / 2)
+                heroPosition.X = _graphics.PreferredBackBufferWidth - heroTexture.Width / 2;
+            else if (heroPosition.X < heroTexture.Width / 2)
+                heroPosition.X = heroTexture.Width / 2;
+
+            if (heroPosition.Y > _graphics.PreferredBackBufferHeight - heroTexture.Height / 2)
+                heroPosition.Y = _graphics.PreferredBackBufferHeight - heroTexture.Height / 2;
+            else if (heroPosition.Y < heroTexture.Height / 2)
+                heroPosition.Y = heroTexture.Height / 2;
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -45,7 +81,17 @@ namespace MoaAdventure
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            _spriteBatch.Draw(
+                 heroTexture,
+                 heroPosition,
+                 null,
+                 Color.White,
+                 0f,
+                 new Vector2(heroTexture.Width / 2, heroTexture.Height / 2),
+                 Vector2.One,
+                 SpriteEffects.None,
+                 0f
+             );
             base.Draw(gameTime);
         }
     }
