@@ -4,7 +4,7 @@
 --S--------S--
 --S--------S--
 H-S--SSSS---SS
-SSS--S--S-----
+SSS--SE-S-----
 --S--S--SSSS--
 --S--T-----S-T
 B-ST----D--STB
