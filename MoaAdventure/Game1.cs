@@ -30,14 +30,14 @@ namespace MoaAdventure
             // TODO: Add your initialization logic here
            // world = new World();
             heroPosition = new Vector2(64, 64);
-
+            heroSpeed=500f;
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            heroTexture = Content.Load<Texture2D>("C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Perso face");
+            heroTexture = Content.Load<Texture2D>("obj/Windows/Content/Perso face");
             // TODO: use this.Content to load your game content here
         }
 
@@ -79,7 +79,7 @@ namespace MoaAdventure
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
+            _spriteBatch.Begin();
             // TODO: Add your drawing code here
             _spriteBatch.Draw(
                  heroTexture,
@@ -92,6 +92,7 @@ namespace MoaAdventure
                  SpriteEffects.None,
                  0f
              );
+            _spriteBatch.End();
             base.Draw(gameTime);
         }
     }
