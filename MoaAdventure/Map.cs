@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MazeRunner
+namespace MoaAdventure
 {
     public class Map
     {

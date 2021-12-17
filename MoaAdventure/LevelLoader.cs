@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace MazeRunner
+namespace MoaAdventure
 {
     public class LevelLoader
     {
