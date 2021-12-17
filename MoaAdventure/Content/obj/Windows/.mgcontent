@@ -4,9 +4,61 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/backgrond champs.png</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/backgrond fortress.png</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/background snow.png</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/background wood.png</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Beton.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Bois.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Bouton.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Brique.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/carte.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Chevalier bas.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Chevalier haut.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/épée magique.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Glace.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Mine.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Perso droite.ico</File>
     <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Perso face.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Perso gauche.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Perso haut.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Pierre Magique.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/porte Magique.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Spider left.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Spider low.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Spider right.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/Spider up.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/tentacule Bléssé.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/tentacule sain.ico</File>
+    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/obj/Windows/Content/trou de Glace.ico</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>
