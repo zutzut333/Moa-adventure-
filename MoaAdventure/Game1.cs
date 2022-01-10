@@ -9,7 +9,7 @@ namespace MoaAdventure
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        public int ActualLevel = 1;
+        public int ActualLevel = 3;
         private Texture2D mainTexture;
         
         private List<Texture2D> _backgroundsList;
