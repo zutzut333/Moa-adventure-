@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MoaAdventure
 {
-    class World
+    class Items
     {
     }
 }

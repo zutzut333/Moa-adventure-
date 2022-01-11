@@ -12,11 +12,6 @@ namespace MoaAdventure
             ParseContent(levelFilename);
         }
 
-        public Map Map
-        {
-            get { return _map; }
-        }
-
         private void ParseContent(string levelFilename)
         {
             string[] fileLines = File.ReadAllLines(levelFilename);
@@ -38,6 +33,11 @@ namespace MoaAdventure
             }
 
             _map = new Map(width, height, tileMap);
+        }
+
+        public Map map
+        {
+            get { return _map; }
         }
     }
 }

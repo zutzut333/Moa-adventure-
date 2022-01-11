@@ -30,9 +30,9 @@ namespace MoaAdventure
             return _map[x, y];
         }
 
-        public bool HasWallAt(int x, int y)
+       /* public bool HasWallAt(int x, int y)
         {
             return _map[x, y] != 0;
-        }
+        }*/
     }
 }
