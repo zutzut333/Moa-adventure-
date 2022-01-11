@@ -129,3 +129,60 @@ C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debu
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\trou de Glace.xnb
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\épée magique.xnb
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\backgrond champs.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\backgrond fortress.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\background snow.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\background wood.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Beton.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Bois.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Bouton.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Brique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\carte.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Chevalier bas.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Chevalier haut.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Glace.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Mine.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso droite.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso face.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso gauche.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso haut.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Pierre Magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\porte Magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider left.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider low.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider right.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider up.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\tentacule Bléssé.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\tentacule sain.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\trou de Glace.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\épée magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\backgrond champs.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\backgrond fortress.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background snow.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background wood.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_champs.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_fortress.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Beton.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bois.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bouton.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Brique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\carte.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier bas.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier haut.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Glace.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Mine.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso droite.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso face.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso gauche.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso haut.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso test.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Pierre Magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\porte Magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider left.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider right.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider up.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule Bléssé.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule sain.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\trou de Glace.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\épée magique.xnb

@@ -4,8 +4,10 @@ using System.Text;
 
 namespace MoaAdventure
 {
-    class Hero : Creature
+    class PickableItem : Entity
     {
-        private int _lifeNumber;
+        private bool _taken;
+        public void TakeItem() 
+        { }
     }
 }

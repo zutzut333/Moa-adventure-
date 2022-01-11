@@ -4,8 +4,8 @@ using System.Text;
 
 namespace MoaAdventure
 {
-    class Hero : Creature
+    class Door : Entity
     {
-        private int _lifeNumber;
+        public void changeLevel() { }
     }
 }

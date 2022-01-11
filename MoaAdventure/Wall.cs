@@ -4,8 +4,7 @@ using System.Text;
 
 namespace MoaAdventure
 {
-    class Hero : Creature
+    class Wall : Entity
     {
-        private int _lifeNumber;
     }
 }

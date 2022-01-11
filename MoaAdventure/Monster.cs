@@ -6,5 +6,24 @@ namespace MoaAdventure
 {
     class Monster : Creature
     {
+        public string pathType;
+        public void Move(string pathType) 
+        {
+            if (pathType == "vertical")
+            {
+                //if (direction = "up")
+                // {//tant que pos y > pos finalup -> monte
+                // direction = "down"}
+
+                    //if (direction = "down")
+                    // {//tant que pos y < pos finaldown -> descend
+                    // direction = "up"}
+
+            }
+                else if (pathType == "random") 
+            {
+           //move(random)
+            }
+        }
     }
 }

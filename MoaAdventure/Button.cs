@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MoaAdventure
 {
-    class World
+    class Button
     {
+        private bool _activated;
     }
 }
