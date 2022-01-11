@@ -6,5 +6,6 @@ namespace MoaAdventure
 {
     class Hero : Creature
     {
+        private int _lifeNumber;
     }
 }
