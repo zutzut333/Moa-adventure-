@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso test.png</SourceFile>
-  <SourceTime>2021-12-14T15:09:17.4036337+01:00</SourceTime>
-  <DestFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/Perso test.xnb</DestFile>
-  <DestTime>2022-01-13T14:42:09.4111917+01:00</DestTime>
+  <SourceFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso test.png</SourceFile>
+  <SourceTime>2022-01-11T13:40:45.9392568+01:00</SourceTime>
+  <DestFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/Perso test.xnb</DestFile>
+  <DestTime>2022-01-13T13:53:48.3892793+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
