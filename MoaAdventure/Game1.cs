@@ -75,7 +75,7 @@ namespace MoaAdventure
             {
                 case 1:
                     _mainTexture = _backgroundsList[0];
-                    _actualMap = new LevelLoader("./CarteN1B1.txt").map;
+                    _actualMap = new LevelLoader("MoaAdventure/Data/CarteN1B1.txt").map;
                     break;
                 case 2:
                     _mainTexture = _backgroundsList[1];
