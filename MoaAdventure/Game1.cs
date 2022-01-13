@@ -1,7 +1,9 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using  System.Collections.Generic;
+using System.Diagnostics;
 
 namespace MoaAdventure
 {
@@ -11,28 +13,24 @@ namespace MoaAdventure
         public const int WINDOW_HEIGHT = 10 * 64;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-<<<<<<< HEAD
-
-        public int ActualLevel = 1;
-        private Texture2D mainTexture;
 
 
         private List<string> direction;
-=======
+
         public int ActualLevel = 1;
         private Texture2D _mainTexture;
         private Map _actualMap;
->>>>>>> d55b27389d84d341cc178b10163367170872c286
+
         private List<Texture2D> _backgroundsList;
 
 
         public Game1()
         {
-            direction.Add("up");
+         /*   direction.Add("up");
             direction.Add("down");
             direction.Add("left");
             direction.Add("right");
-            direction.Add("random");
+            direction.Add("random"); */
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = false;
@@ -68,23 +66,29 @@ namespace MoaAdventure
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
+            Debug.WriteLine("asdfaskljdjkl");
             // TODO: Add your update logic here
 
             switch (ActualLevel)
             {
                 case 1:
-                    _mainTexture = _backgroundsList[0]; // :Debug:/bin:/MoaAdventure/Data/CarteN1B1.txt
+                    _mainTexture = _backgroundsList[0]; 
                     _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
+                    //Console.WriteLine(_actualMap);
+                    Debug.WriteLine(_actualMap.ToString());
+                    Debug.WriteLine("asdfaskljdjkl");
                     break;
                 case 2:
                     _mainTexture = _backgroundsList[1];
+                    _actualMap = new LevelLoader("../../../Data/CarteN2B2.txt").map;
                     break;
                 case 3:
                     _mainTexture = _backgroundsList[2];
+                    _actualMap = new LevelLoader("../../../Data/CarteN3B3.txt").map;
                     break;
                 case 4:
                     _mainTexture = _backgroundsList[3];
+                    _actualMap = new LevelLoader("../../../Data/CarteN4B4.txt").map;
                     break;
             }
 
