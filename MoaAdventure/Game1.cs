@@ -55,8 +55,8 @@ namespace MoaAdventure
             switch (ActualLevel)
             {
                 case 1:
-                    _mainTexture = _backgroundsList[0];
-                    _actualMap = new LevelLoader("MoaAdventure/Data/CarteN1B1.txt").map;
+                    _mainTexture = _backgroundsList[0]; // :Debug:/bin:/MoaAdventure/Data/CarteN1B1.txt
+                    _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
                     break;
                 case 2:
                     _mainTexture = _backgroundsList[1];
