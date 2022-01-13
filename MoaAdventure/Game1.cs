@@ -7,19 +7,32 @@ namespace MoaAdventure
 {
     public class Game1 : Game
     {
+        public const int WINDOW_WIDTH = 14 * 64;
+        public const int WINDOW_HEIGHT = 10 * 64;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        public int ActualLevel = 3;
+
+        public int ActualLevel = 1;
         private Texture2D mainTexture;
-        
+
+
+        private List<string> direction;
         private List<Texture2D> _backgroundsList;
 
 
         public Game1()
         {
+            direction.Add("up");
+            direction.Add("down");
+            direction.Add("left");
+            direction.Add("right");
+            direction.Add("random");
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = false;
+           _graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
+           _graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
+
         }
 
         protected override void Initialize()
