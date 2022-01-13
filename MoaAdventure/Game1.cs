@@ -11,12 +11,18 @@ namespace MoaAdventure
         public const int WINDOW_HEIGHT = 10 * 64;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+<<<<<<< HEAD
 
         public int ActualLevel = 1;
         private Texture2D mainTexture;
 
 
         private List<string> direction;
+=======
+        public int ActualLevel = 1;
+        private Texture2D _mainTexture;
+        private Map _actualMap;
+>>>>>>> d55b27389d84d341cc178b10163367170872c286
         private List<Texture2D> _backgroundsList;
 
 
@@ -68,16 +74,17 @@ namespace MoaAdventure
             switch (ActualLevel)
             {
                 case 1:
-                    mainTexture = _backgroundsList[0];
+                    _mainTexture = _backgroundsList[0];
+                    _actualMap = new LevelLoader("./CarteN1B1.txt").map;
                     break;
                 case 2:
-                    mainTexture = _backgroundsList[1];
+                    _mainTexture = _backgroundsList[1];
                     break;
                 case 3:
-                    mainTexture = _backgroundsList[2];
+                    _mainTexture = _backgroundsList[2];
                     break;
                 case 4:
-                    mainTexture = _backgroundsList[3];
+                    _mainTexture = _backgroundsList[3];
                     break;
             }
 
@@ -90,7 +97,7 @@ namespace MoaAdventure
             
 
             _spriteBatch.Begin();
-            _spriteBatch.Draw(mainTexture, new Vector2(0, 0), null, Color.White);
+            _spriteBatch.Draw(_mainTexture, new Vector2(0, 0), null, Color.White);
             _spriteBatch.End();
 
 
