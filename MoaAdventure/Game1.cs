@@ -20,6 +20,7 @@ namespace MoaAdventure
         public int ActualLevel = 1;
         private Texture2D _mainTexture;
         private Map _actualMap;
+        public bool isDoorPassed = true;
 
         private List<Texture2D> _backgroundsList;
 
@@ -68,27 +69,32 @@ namespace MoaAdventure
                 Exit();
             // TODO: Add your update logic here
 
-            switch (ActualLevel)
+           if( isDoorPassed == true ){ 
+               switch (ActualLevel)
             {
                 case 1:
                     _mainTexture = _backgroundsList[0]; 
                     _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
-                    //Console.WriteLine(_actualMap);
-                    Debug.WriteLine(_actualMap.ToString());
+                    Debug.WriteLine(_actualMap.TileIdAt(0,9));
+                    Debug.WriteLine(_actualMap.Height);
+                    isDoorPassed = false;
                     break;
                 case 2:
                     _mainTexture = _backgroundsList[1];
                     _actualMap = new LevelLoader("../../../Data/CarteN2B2.txt").map;
-                    break;
+                    isDoorPassed = false;
+                        break;
                 case 3:
                     _mainTexture = _backgroundsList[2];
                     _actualMap = new LevelLoader("../../../Data/CarteN3B3.txt").map;
-                    break;
+                    isDoorPassed = false;
+                        break;
                 case 4:
                     _mainTexture = _backgroundsList[3];
                     _actualMap = new LevelLoader("../../../Data/CarteN4B4.txt").map;
-                    break;
-            }
+                    isDoorPassed = false;
+                        break;
+            }}
 
             base.Update(gameTime);
         }
