@@ -71,35 +71,41 @@ namespace MoaAdventure
 
            if( isDoorPassed == true ){ 
                switch (ActualLevel)
-            {
-                case 1:
-                    _mainTexture = _backgroundsList[0]; 
-                    _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
-                    Debug.WriteLine(_actualMap.TileIdAt(12,0));
-                    isDoorPassed = false;
-                    break;
-                case 2:
-                    _mainTexture = _backgroundsList[1];
-                    _actualMap = new LevelLoader("../../../Data/CarteN2B2.txt").map;
-                    isDoorPassed = false;
+                {
+                    case 1:
+                        _mainTexture = _backgroundsList[0]; 
+                        _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
+                        Debug.WriteLine(_actualMap.TileIdAt(12,0));
+                        isDoorPassed = false;
                         break;
-                case 3:
-                    _mainTexture = _backgroundsList[2];
-                    _actualMap = new LevelLoader("../../../Data/CarteN3B3.txt").map;
-                    isDoorPassed = false;
-                        break;
-                case 4:
-                    _mainTexture = _backgroundsList[3];
-                    _actualMap = new LevelLoader("../../../Data/CarteN4B4.txt").map;
-                    isDoorPassed = false;
-                        break;
-            }}
+                    case 2:
+                        _mainTexture = _backgroundsList[1];
+                        _actualMap = new LevelLoader("../../../Data/CarteN2B2.txt").map;
+                        isDoorPassed = false;
+                            break;
+                    case 3:
+                        _mainTexture = _backgroundsList[2];
+                        _actualMap = new LevelLoader("../../../Data/CarteN3B3.txt").map;
+                        isDoorPassed = false;
+                            break;
+                    case 4:
+                        _mainTexture = _backgroundsList[3];
+                        _actualMap = new LevelLoader("../../../Data/CarteN4B4.txt").map;
+                        isDoorPassed = false;
+                            break;
+                }
+                for (int line = 0; line < _actualMap.Height; line++)
+                {
+                    for (int column = 0; column < _actualMap.Width; column++)
+                    {
+                        Entity createEntity = new Entity(int _actualMap.TileIdAt(column, line), int column, int line);
+                    }
+                }
+            }
 
+           
 
-
-
-
-           base.Update(gameTime);
+            base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
