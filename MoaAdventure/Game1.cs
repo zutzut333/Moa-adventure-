@@ -98,7 +98,7 @@ namespace MoaAdventure
                 {
                     for (int column = 0; column < _actualMap.Width; column++)
                     {
-                        Entity createEntity = new Entity(int _actualMap.TileIdAt(column, line), int column, int line);
+                        Entity createEntity = new Entity(_actualMap.TileIdAt(column, line),column,line);
                     }
                 }
             }
