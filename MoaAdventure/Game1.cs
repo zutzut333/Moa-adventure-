@@ -94,14 +94,7 @@ namespace MoaAdventure
                         isDoorPassed = false;
                             break;
                 }
-                for (int line = 0; line < _actualMap.Height; line++)
-                {
-                    for (int column = 0; column < _actualMap.Width; column++)
-                    {
-                        Entity createEntity = new Entity(int _actualMap.TileIdAt(column, line), int column, int line);
-                    }
-                }
-            }
+           }
 
            
 
