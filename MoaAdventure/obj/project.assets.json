@@ -7380,19 +7380,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nathanael.collaud\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
       "projectName": "MoaAdventure",
-      "projectPath": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
-      "packagesPath": "C:\\Users\\nathanael.collaud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nathanael.collaud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7445,7 +7445,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
