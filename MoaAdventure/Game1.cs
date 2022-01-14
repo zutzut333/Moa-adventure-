@@ -76,7 +76,6 @@ namespace MoaAdventure
                     _mainTexture = _backgroundsList[0]; 
                     _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
                     Debug.WriteLine(_actualMap.TileIdAt(12,0));
-
                     isDoorPassed = false;
                     break;
                 case 2:
@@ -95,6 +94,15 @@ namespace MoaAdventure
                     isDoorPassed = false;
                         break;
             }}
+
+           for (int line = 0; line < _actualMap.Height; line++)
+           {
+               for (int column = 0; column < _actualMap.Width; column++)
+               {
+                   Debug.WriteLine(_actualMap.TileIdAt(column, line));
+
+               }
+           }
 
             base.Update(gameTime);
         }
