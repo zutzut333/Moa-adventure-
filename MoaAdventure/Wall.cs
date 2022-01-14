@@ -5,9 +5,9 @@ using System.Text;
 namespace MoaAdventure
 {
 
-    class Wall : Entity {
-
-
+    class Wall : Entity
+    {
+    
 
 
     }

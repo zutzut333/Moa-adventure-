@@ -95,16 +95,11 @@ namespace MoaAdventure
                         break;
             }}
 
-           for (int line = 0; line < _actualMap.Height; line++)
-           {
-               for (int column = 0; column < _actualMap.Width; column++)
-               {
-                   Debug.WriteLine(_actualMap.TileIdAt(column, line));
 
-               }
-           }
 
-            base.Update(gameTime);
+
+
+           base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
