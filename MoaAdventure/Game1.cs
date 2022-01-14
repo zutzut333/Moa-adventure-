@@ -66,7 +66,6 @@ namespace MoaAdventure
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            Debug.WriteLine("asdfaskljdjkl");
             // TODO: Add your update logic here
 
             switch (ActualLevel)
@@ -76,7 +75,6 @@ namespace MoaAdventure
                     _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
                     //Console.WriteLine(_actualMap);
                     Debug.WriteLine(_actualMap.ToString());
-                    Debug.WriteLine("asdfaskljdjkl");
                     break;
                 case 2:
                     _mainTexture = _backgroundsList[1];
