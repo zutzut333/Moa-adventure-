@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/user/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Glace.ico</SourceFile>
-  <SourceTime>2022-01-14T15:24:03.3254025+01:00</SourceTime>
-  <DestFile>C:/Users/user/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/Glace.xnb</DestFile>
-  <DestTime>2022-01-14T15:38:49.6654874+01:00</DestTime>
+  <SourceFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Glace.ico</SourceFile>
+  <SourceTime>2021-12-14T14:56:44.1142419+01:00</SourceTime>
+  <DestFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/Glace.xnb</DestFile>
+  <DestTime>2022-01-18T13:45:41.9989561+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

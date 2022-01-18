@@ -13,11 +13,11 @@ namespace MoaAdventure
         protected int PositionY;
         protected string texture;
 
-       public Entity(int IdLetter, int positionX, int positionY)
+       public Entity()
         {
-            idLetter = IdLetter;
+            /*idLetter = IdLetter;
             PositionY = positionY;
-            PositionX = positionX;
+            PositionX = positionX; // */
         }
 
         

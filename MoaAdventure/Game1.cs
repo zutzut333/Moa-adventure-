@@ -27,6 +27,7 @@ namespace MoaAdventure
 
         public Game1()
         {
+       
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = false;
@@ -37,7 +38,6 @@ namespace MoaAdventure
 
         protected override void Initialize()
         {
-          
 
 
             base.Initialize();
