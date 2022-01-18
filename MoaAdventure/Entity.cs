@@ -13,7 +13,7 @@ namespace MoaAdventure
         protected int PositionY;
         protected string texture;
 
-        Entity(int IdLetter, int positionX, int positionY)
+       public Entity(int IdLetter, int positionX, int positionY)
         {
             idLetter = IdLetter;
             PositionY = positionY;

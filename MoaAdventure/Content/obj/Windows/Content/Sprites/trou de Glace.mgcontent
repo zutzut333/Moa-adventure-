@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/trou de Glace.ico</SourceFile>
-  <SourceTime>2022-01-11T13:40:45.944227+01:00</SourceTime>
-  <DestFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/trou de Glace.xnb</DestFile>
-  <DestTime>2022-01-14T11:52:21.6833774+01:00</DestTime>
+  <SourceFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/trou de Glace.ico</SourceFile>
+  <SourceTime>2021-12-16T09:04:15.4536958+01:00</SourceTime>
+  <DestFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/trou de Glace.xnb</DestFile>
+  <DestTime>2022-01-18T13:34:03.0837642+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
