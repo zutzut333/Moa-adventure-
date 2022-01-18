@@ -8,8 +8,11 @@ namespace MoaAdventure
     {
         
         private int _speed;
-        
-        
+
+        public Creature(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+        {
+
+        }
 
         void Attack() 
         { }

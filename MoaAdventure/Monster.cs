@@ -6,8 +6,13 @@ namespace MoaAdventure
 {
     class Monster : Creature
     {
-        public string pathType;
-        public void Move(string pathType) 
+        public Monster(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+        {
+
+    } 
+
+        //public string pathType;
+        /*public void Move(string pathType) 
         {
             if (pathType == "vertical")
             {
@@ -24,6 +29,6 @@ namespace MoaAdventure
             {
            //move(random)
             }
-        }
+        }*/
     }
 }

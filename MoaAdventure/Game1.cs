@@ -53,6 +53,7 @@ namespace MoaAdventure
             _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background_champs"));
             _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background_fortress"));
 
+
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
 
@@ -93,8 +94,8 @@ namespace MoaAdventure
                 for (int line = 0; line < _actualMap.Height; line++)
                 {
                     for (int column = 0; column < _actualMap.Width; column++)
-                    {
-                        Entity createEntity = new Entity(_actualMap.TileIdAt(column, line),column,line);
+                    { 
+                        new CreateEntity (_actualMap.TileIdAt(column, line),column,line);
                     }
                 }
             }

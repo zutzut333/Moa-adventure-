@@ -9,5 +9,11 @@ namespace MoaAdventure
         private bool _taken;
         public void TakeItem() 
         { }
+
+        public PickableItem(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+        {
+
+        }
+
     }
 }

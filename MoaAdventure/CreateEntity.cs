@@ -6,41 +6,43 @@ namespace MoaAdventure
 {
     class CreateEntity
     {
-
-      /*  class CreateEntity
-        {
-
-        for (int line = 0; line<_actualMap.Height; line++)
-        {
-            for (int column = 0; column<_actualMap.Width; column++)
-            {
-                Entity createEntity = new Entity(int _actualMap.TileIdAt(column, line), int column, int line);
-            }
-        }    */
-
-    public void DefineEntity(int idletter)
+        public CreateEntity(int idletter, int column, int line)
         {
 
             switch (idletter)
             {
                 case 1:
-
-
+                    Monster monster = new Monster(idletter, column, line);
+                    monster.DefineTexture("");
+                    monster.DefineName("Spider");
 
                     break;
                 case 2:
-
+                    Button button = new Button(idletter, column, line);
+                    button.DefineTexture("");
+                    button.DefineName("Button");
                     break;
+
                 case 3:
-
+                    PickableItem carte = new PickableItem(idletter, column, line);
+                    carte.DefineTexture("");
+                    carte.DefineName("Carte");
                     break;
+
                 case 4:
-
+                    Door door = new Door(idletter, column, line);
+                    door.DefineTexture("");
+                    door.DefineName("Door");
                     break;
+
                 case 5:
+                    PickableItem epee  = new PickableItem(idletter, column, line);
+                    epee.DefineTexture("");
+                    epee.DefineName("Epee");
 
                     break;
                 case 8:
+
 
                     break;
                 case 11:

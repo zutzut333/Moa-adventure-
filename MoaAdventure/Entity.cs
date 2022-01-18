@@ -11,17 +11,23 @@ namespace MoaAdventure
         protected string _name;
         protected int PositionX;
         protected int PositionY;
-        protected string texture;
+        protected string _texture;
 
-       public Entity()
+        public Entity(int IdLetter, int positionX, int positionY)
         {
-            /*idLetter = IdLetter;
+            idLetter = IdLetter;
             PositionY = positionY;
-            PositionX = positionX; // */
+            PositionX = positionX;
         }
 
-        
+        public void DefineTexture(string texture)
+        {
+            _texture = texture;
+        }
 
-
+        public void DefineName(string name)
+        {
+            _name = name;
+        }
     }
 }
