@@ -47,11 +47,12 @@ namespace MoaAdventure
         {
 
             _backgroundsList = new List<Texture2D>();
-
             _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background wood"));
             _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background snow"));
             _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background_champs"));
             _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background_fortress"));
+
+           //private Texture2D _wallTexture (Content.Load<Texture2D>("Sprites/background wood"));
 
 
             _spriteBatch = new SpriteBatch(GraphicsDevice);
@@ -64,7 +65,6 @@ namespace MoaAdventure
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            // TODO: Add your update logic here
 
            if( isDoorPassed == true ){ 
                switch (ActualLevel)
@@ -99,6 +99,8 @@ namespace MoaAdventure
                     }
                 }
             }
+
+          
 
            
 

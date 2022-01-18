@@ -8,9 +8,11 @@ namespace MoaAdventure
     {
         private int _lifeNumber;
 
-        Hero(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+       public Hero(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
         {
+            _lifeNumber = 3;
 
         }
+
     }
 }

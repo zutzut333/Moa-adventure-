@@ -7,7 +7,7 @@ namespace MoaAdventure
 
     class Wall : Entity
     {
-        Wall(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+        public Wall(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
         {
 
         }
