@@ -7385,11 +7385,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nathanael.collaud\\source\\repos\\testMG\\testMG.csproj",
+      "projectUniqueName": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\test\\testMG\\testMG.csproj",
       "projectName": "testMG",
-      "projectPath": "C:\\Users\\nathanael.collaud\\source\\repos\\testMG\\testMG.csproj",
+      "projectPath": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\test\\testMG\\testMG.csproj",
       "packagesPath": "C:\\Users\\nathanael.collaud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nathanael.collaud\\source\\repos\\testMG\\obj\\",
+      "outputPath": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\test\\testMG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nathanael.collaud\\AppData\\Roaming\\NuGet\\NuGet.Config",

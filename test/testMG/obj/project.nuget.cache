@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Aj7397rwU9cTbvl/OEfZj9Oym6lJNGFLLu4mZPY+JSh2tAEeSLACPiqcBwJoYPz/D6m+nqbNL7fnjlCtkTb0Sg==",
+  "dgSpecHash": "Tzv3KUSqihUcrtRykzLHLaYUCFkJ/6EMc9IDrsInwL2EhVM1WYjBn1vFQ5JRTuZXulvJ7/r9EIcki2LLaI0QKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nathanael.collaud\\source\\repos\\testMG\\testMG.csproj",
+  "projectFilePath": "C:\\Users\\nathanael.collaud\\Documents\\GitHub\\Moa-adventure-\\test\\testMG\\testMG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nathanael.collaud\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\nathanael.collaud\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
