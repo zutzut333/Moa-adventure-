@@ -26,7 +26,6 @@ C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debu
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfoInputs.cache
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfo.cs
@@ -137,30 +136,6 @@ C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debu
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background wood.xnb
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_champs.xnb
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_fortress.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Beton.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bois.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bouton.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Brique.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\carte.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier bas.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier haut.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Glace.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Mine.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso droite.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso face.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso gauche.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso haut.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso test.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Pierre Magique.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\porte Magique.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider left.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider right.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider up.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule Bléssé.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule sain.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\trou de Glace.xnb
-C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\épée magique.xnb
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfoInputs.cache
@@ -258,3 +233,27 @@ C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.png
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.png
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Beton.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bois.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bouton.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Brique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\carte.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier bas.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier haut.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Glace.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Mine.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso droite.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso face.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso gauche.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso haut.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso test.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Pierre Magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\porte Magique.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider left.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider right.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider up.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule Bléssé.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule sain.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\trou de Glace.xnb
+C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\épée magique.xnb

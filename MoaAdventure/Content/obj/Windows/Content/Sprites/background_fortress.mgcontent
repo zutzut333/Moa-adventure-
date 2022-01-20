@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/background_fortress.png</SourceFile>
-  <SourceTime>2021-12-17T11:28:49.965013+01:00</SourceTime>
-  <DestFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/background_fortress.xnb</DestFile>
-  <DestTime>2022-01-20T15:06:07.6258529+01:00</DestTime>
+  <SourceFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/background_fortress.png</SourceFile>
+  <SourceTime>2022-01-11T13:40:45.942239+01:00</SourceTime>
+  <DestFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/background_fortress.xnb</DestFile>
+  <DestTime>2022-01-20T15:27:35.3731855+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
