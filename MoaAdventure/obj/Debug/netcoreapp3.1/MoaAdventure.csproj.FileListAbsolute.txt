@@ -190,3 +190,4 @@ C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfoInputs.cache
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfo.cs
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.CoreCompileInputs.cache
+C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
