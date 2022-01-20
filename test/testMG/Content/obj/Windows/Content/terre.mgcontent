@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/nathanael.collaud/source/repos/testMG/Content/terre.png</SourceFile>
-  <SourceTime>2021-12-03T11:40:01.6659304+01:00</SourceTime>
-  <DestFile>C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/Content/terre.xnb</DestFile>
-  <DestTime>2021-12-03T11:40:54.2744172+01:00</DestTime>
+  <SourceFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/terre.png</SourceFile>
+  <SourceTime>2022-01-11T15:08:21.18611+01:00</SourceTime>
+  <DestFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/bin/Windows/Content/terre.xnb</DestFile>
+  <DestTime>2022-01-20T14:10:47.0260839+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
