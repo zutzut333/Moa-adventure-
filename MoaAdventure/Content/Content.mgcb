@@ -289,7 +289,7 @@
 /processorParam:TextureFormat=Color
 /build:Sprites/Spider left.ico
 
-#begin Sprites/Spider low.ico
+#begin Sprites/Spider low.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -299,7 +299,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Sprites/Spider low.ico
+/build:Sprites/Spider low.png
 
 #begin Sprites/Spider right.ico
 /importer:TextureImporter

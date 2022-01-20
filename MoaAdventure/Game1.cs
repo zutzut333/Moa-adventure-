@@ -156,7 +156,7 @@ namespace MoaAdventure
 
             _spriteBatch.Begin();
             _spriteBatch.Draw(_mainTexture, new Vector2(0, 0), null, Color.White);
-            _spriteBatch.Draw(_spiderPathList[0], new Vector2(0, 0), null, Color.White);
+            _spriteBatch.Draw(_spiderPathList[1], new Vector2(0, 0), null, Color.White);
             _spriteBatch.End();
 
 
