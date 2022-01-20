@@ -4,12 +4,12 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/test/testMG/Content/ball.png</File>
-    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/test/testMG/Content/ball2.png</File>
-    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/test/testMG/Content/File.spritefont</File>
-    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/test/testMG/Content/Perso test.png</File>
-    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/test/testMG/Content/terre.png</File>
-    <File>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/test/testMG/Content/woodenfloor.jpg</File>
+    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/ball.png</File>
+    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/ball2.png</File>
+    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/File.spritefont</File>
+    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/Perso test.png</File>
+    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/terre.png</File>
+    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/test/testMG/Content/woodenfloor.jpg</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
