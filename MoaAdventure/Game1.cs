@@ -22,7 +22,16 @@ namespace MoaAdventure
         private Map _actualMap;
         public bool isDoorPassed = true;
 
-        private List<Texture2D> _backgroundsList;
+        private List<Texture2D> _backgroundsPathList;
+        private List<Texture2D> _heroPathList;
+        private List<Texture2D> _wallPathList;
+        private List<Texture2D> _spiderPathList;
+        private List<Texture2D> _knightPathList;
+        private List<Texture2D> _itemPathList;
+        private List<Texture2D> _trapPathList;
+        private List<Texture2D> _finalBossPathList;
+        private Texture2D _buttonPath;
+        private Texture2D _doorPath;
 
 
         public Game1()
@@ -38,7 +47,7 @@ namespace MoaAdventure
 
         protected override void Initialize()
         {
-
+            direction = new List<string>(){ "up","down","left","right","random"};
 
             base.Initialize();
         }
@@ -46,16 +55,49 @@ namespace MoaAdventure
         protected override void LoadContent()
         {
 
-            _backgroundsList = new List<Texture2D>();
-            _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background wood"));
-            _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background snow"));
-            _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background_champs"));
-            _backgroundsList.Add(Content.Load<Texture2D>("Sprites/background_fortress"));
+            
+           
+             _backgroundsPathList = new List<Texture2D>() 
+            { Content.Load<Texture2D>("Sprites/background wood"),
+                Content.Load < Texture2D > ("Sprites/background snow"),
+                Content.Load < Texture2D > ("Sprites/background_champs"),
+                Content.Load < Texture2D > ("Sprites/background_fortress") };
 
-           //private Texture2D _wallTexture (Content.Load<Texture2D>("Sprites/background wood"));
 
+            _heroPathList = new List<Texture2D>() 
+            {   Content.Load < Texture2D > ("Sprites/Perso haut"), 
+                Content.Load<Texture2D>("Sprites/Perso face"), 
+                Content.Load<Texture2D>("Sprites/Perso gauche"), 
+                Content.Load<Texture2D>("Sprites/Perso droite") };
+
+            _wallPathList = new List<Texture2D>() { Content.Load < Texture2D > ("Sprites/Brique"), Content.Load < Texture2D >( "Sprites/Glace") };
+
+            _spiderPathList = new List<Texture2D>() 
+            { Content.Load<Texture2D>("Sprites/Spider up"),
+                Content.Load<Texture2D>("Sprites/Spider low"),
+                Content.Load<Texture2D>("Sprites/Spider left"),
+                Content.Load<Texture2D>("Sprites/Spider right") };
+
+            _knightPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/Chevalier haut"), Content.Load<Texture2D>("Sprites/Chevalier bas") };
+
+            _itemPathList = new List<Texture2D>() 
+            { Content.Load<Texture2D>("Sprites/Carte"),
+                Content.Load<Texture2D>("Sprites/épée magique"),
+                Content.Load<Texture2D>("Sprites/Pierre Magique") };
+
+            _buttonPath = Content.Load<Texture2D>("Sprites/Bouton");
+
+             _trapPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/Mine"), Content.Load<Texture2D>("Sprites/trou de glace") };
+
+            _finalBossPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/tentacule sain"), Content.Load<Texture2D>("Sprites/tentacule bléssé") };
+
+            _doorPath = Content.Load<Texture2D>("Sprites/porte Magique");
 
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            
+
+
+         
 
 
             // TODO: use this.Content to load your game content here
@@ -70,23 +112,23 @@ namespace MoaAdventure
                switch (ActualLevel)
                 {
                     case 1:
-                        _mainTexture = _backgroundsList[0]; 
+                        _mainTexture = _backgroundsPathList[0]; 
                         _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
                         Debug.WriteLine(_actualMap.TileIdAt(12,0));
                         isDoorPassed = false;
                         break;
                     case 2:
-                        _mainTexture = _backgroundsList[1];
+                        _mainTexture = _backgroundsPathList[1];
                         _actualMap = new LevelLoader("../../../Data/CarteN2B2.txt").map;
                         isDoorPassed = false;
                             break;
                     case 3:
-                        _mainTexture = _backgroundsList[2];
+                        _mainTexture = _backgroundsPathList[2];
                         _actualMap = new LevelLoader("../../../Data/CarteN3B3.txt").map;
                         isDoorPassed = false;
                             break;
                     case 4:
-                        _mainTexture = _backgroundsList[3];
+                        _mainTexture = _backgroundsPathList[3];
                         _actualMap = new LevelLoader("../../../Data/CarteN4B4.txt").map;
                         isDoorPassed = false;
                             break;
@@ -114,6 +156,7 @@ namespace MoaAdventure
 
             _spriteBatch.Begin();
             _spriteBatch.Draw(_mainTexture, new Vector2(0, 0), null, Color.White);
+            _spriteBatch.Draw(_spiderPathList[0], new Vector2(0, 0), null, Color.White);
             _spriteBatch.End();
 
 
