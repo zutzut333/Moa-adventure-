@@ -10,7 +10,7 @@ namespace MoaAdventure
 
         public Button(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
         {
-
+            _activated = false;
         }
     }
 }

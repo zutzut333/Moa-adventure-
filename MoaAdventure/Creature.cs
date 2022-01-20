@@ -14,6 +14,11 @@ namespace MoaAdventure
 
         }
 
+        public void DefineSpeed(int speed)
+        {
+            _speed = speed;
+        }
+
         void Attack() 
         { }
         void Move(string direction) { }
