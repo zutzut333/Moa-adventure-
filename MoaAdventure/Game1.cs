@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using  System.Collections.Generic;
 using System.Diagnostics;
+using System.Reflection.Metadata.Ecma335;
 
 namespace MoaAdventure
 {
@@ -32,7 +33,7 @@ namespace MoaAdventure
         private List<Texture2D> _finalBossPathList;
         private Texture2D _buttonPath;
         private Texture2D _doorPath;
-
+        private List<Entity> _createdEntity;
 
         public Game1()
         {
@@ -42,6 +43,7 @@ namespace MoaAdventure
             IsMouseVisible = false;
            _graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
            _graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
+           _createdEntity = new List<Entity>();
 
         }
 
@@ -54,6 +56,7 @@ namespace MoaAdventure
 
         protected override void LoadContent()
         {
+
 
             _wallPathList = new List<Texture2D>()
             {
@@ -78,11 +81,7 @@ namespace MoaAdventure
 
             _wallPathList = new List<Texture2D>() { Content.Load < Texture2D > ("Sprites/Brique"), Content.Load < Texture2D >( "Sprites/Glace") };
 
-            _spiderPathList = new List<Texture2D>() 
-            { Content.Load<Texture2D>("Sprites/Spider up"),
-                Content.Load<Texture2D>("Sprites/Spider low"),
-                Content.Load<Texture2D>("Sprites/Spider left"),
-                Content.Load<Texture2D>("Sprites/Spider right") };
+            
 
             _knightPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/Chevalier haut"), Content.Load<Texture2D>("Sprites/Chevalier bas") };
 
@@ -139,11 +138,12 @@ namespace MoaAdventure
                         isDoorPassed = false;
                             break;
                 }
-                for (int line = 0; line < _actualMap.Height; line++)
+               for (int line = 0; line < _actualMap.Height; line++)
                 {
                     for (int column = 0; column < _actualMap.Width; column++)
-                    { 
+                    {
                         new CreateEntity (this,_actualMap.TileIdAt(column, line),column,line);
+
                     }
                 }
             }
@@ -162,7 +162,10 @@ namespace MoaAdventure
 
             _spriteBatch.Begin();
             _spriteBatch.Draw(_mainTexture, new Vector2(0, 0), null, Color.White);
-            _spriteBatch.Draw(_spiderPathList[1], new Vector2(0, 0), null, Color.White);
+            foreach (CreateEntity stockedEntity in _createdEntity)
+            {
+                _spriteBatch.Draw(stockedEntity., new Vector2(0, 0), null, Color.White);
+            }
             _spriteBatch.End();
 
 

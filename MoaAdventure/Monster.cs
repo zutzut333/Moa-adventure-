@@ -2,16 +2,39 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
 
 namespace MoaAdventure
 {
     class Monster : Creature
     {
+        private int _Idletter;
+        private int _positionX;
+        private int _positionY;
+        private List<Texture2D> _spiderPathList;
+        private SpriteBatch _spriteBatch;
+
         public Monster(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
         {
+            _Idletter = IdLetter;
+            _positionX = PositionX;
+            _positionY = PositionY;
+        }
 
-            
+        protected override void LoadContent()
+        {
 
+
+            _spiderPathList = new List<Texture2D>()
+            { Game.Content.Load<Texture2D>("Sprites/Spider up"),
+                Game.Content.Load<Texture2D>("Sprites/Spider low"),
+                Game.Content.Load<Texture2D>("Sprites/Spider left"),
+                Game.Content.Load<Texture2D>("Sprites/Spider right") };
+
+            _spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            base.LoadContent();
         }
 
         public override void Update(GameTime gameTime)
@@ -22,6 +45,10 @@ namespace MoaAdventure
 
         public override void Draw(GameTime gameTime)
         {
+            _spriteBatch.Begin();
+            _spriteBatch.Draw(_spiderPathList[1], new Vector2(_positionX, _positionY), null, Color.White);
+            _spriteBatch.End();
+
             base.Draw(gameTime);
         }
 
