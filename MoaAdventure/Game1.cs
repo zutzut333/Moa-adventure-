@@ -26,7 +26,6 @@ namespace MoaAdventure
         private List<Texture2D> _backgroundsPathList;
         private List<Texture2D> _heroPathList;
         private List<Texture2D> _wallPathList;
-        private List<Texture2D> _spiderPathList;
         private List<Texture2D> _knightPathList;
         private List<Texture2D> _itemPathList;
         private List<Texture2D> _trapPathList;
@@ -120,35 +119,33 @@ namespace MoaAdventure
                         _mainTexture = _backgroundsPathList[0]; 
                         _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
                         Debug.WriteLine(_actualMap.TileIdAt(12,0));
-                        isDoorPassed = false;
                         break;
                     case 2:
                         _mainTexture = _backgroundsPathList[1];
                         _actualMap = new LevelLoader("../../../Data/CarteN2B2.txt").map;
-                        isDoorPassed = false;
-                            break;
+                        break;
                     case 3:
                         _mainTexture = _backgroundsPathList[2];
                         _actualMap = new LevelLoader("../../../Data/CarteN3B3.txt").map;
-                        isDoorPassed = false;
-                            break;
+                        break;
                     case 4:
                         _mainTexture = _backgroundsPathList[3];
                         _actualMap = new LevelLoader("../../../Data/CarteN4B4.txt").map;
-                        isDoorPassed = false;
-                            break;
+                        break;
                 }
+
                for (int line = 0; line < _actualMap.Height; line++)
-                {
-                    for (int column = 0; column < _actualMap.Width; column++)
-                    {
-                        new CreateEntity (this,_actualMap.TileIdAt(column, line),column,line);
+               {
+                   for (int column = 0; column < _actualMap.Width; column++)
+                   {
+                       new CreateEntity(this, _actualMap.TileIdAt(column, line), column, line, gameTime);
 
-                    }
-                }
-            }
+                   }
+               }
 
-          
+                isDoorPassed = false;
+
+           }
 
            
 
@@ -162,10 +159,6 @@ namespace MoaAdventure
 
             _spriteBatch.Begin();
             _spriteBatch.Draw(_mainTexture, new Vector2(0, 0), null, Color.White);
-            foreach (CreateEntity stockedEntity in _createdEntity)
-            {
-                _spriteBatch.Draw(stockedEntity., new Vector2(0, 0), null, Color.White);
-            }
             _spriteBatch.End();
 
 

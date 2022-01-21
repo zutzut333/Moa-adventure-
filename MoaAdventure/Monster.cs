@@ -20,6 +20,7 @@ namespace MoaAdventure
             _Idletter = IdLetter;
             _positionX = PositionX;
             _positionY = PositionY;
+            LoadContent();
         }
 
         protected override void LoadContent()
@@ -39,6 +40,8 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
+
+            Draw(gameTime);
             base.Update(gameTime);
 
         }
@@ -46,7 +49,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_spiderPathList[1], new Vector2(_positionX, _positionY), null, Color.White);
+            _spriteBatch.Draw(_spiderPathList[1], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
