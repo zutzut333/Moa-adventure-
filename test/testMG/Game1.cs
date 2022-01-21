@@ -158,6 +158,7 @@ namespace testMG
                  SpriteEffects.None,
                  0f
              );
+
             _spriteBatch.Draw(
                  ball2Texture,
                  ball2Position,
@@ -169,6 +170,7 @@ namespace testMG
                  SpriteEffects.None,
                  0f
              );
+
             _spriteBatch.DrawString(police,message, new Vector2(100, 100), Color.Black);
             _spriteBatch.End();
             // TODO: Add your drawing code here
