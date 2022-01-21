@@ -1,21 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace MoaAdventure
 {
     class CreateEntity
     {
-        public CreateEntity(int idletter, int column, int line)
+        public CreateEntity(Game game ,int idletter, int column, int line) 
         {
 
             switch (idletter)
             {
                 case 1:
-                    Monster spider = new Monster(idletter, column, line);
+                    Monster spider = new Monster(game, idletter, column, line);
                     spider.DefineTexture("");
                     spider.DefineName("Spider");
                     spider.DefineSpeed(1);
+                    
                     break;
 
                 case 2:

@@ -1,15 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace MoaAdventure
 {
     class Monster : Creature
     {
-        public Monster(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+        public Monster(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
         {
 
-    } 
+            
+
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+
+        }
+
+        public override void Draw(GameTime gameTime)
+        {
+            base.Draw(gameTime);
+        }
+
+
 
         //public string pathType;
         /*public void Move(string pathType) 
@@ -30,5 +46,7 @@ namespace MoaAdventure
            //move(random)
             }
         }*/
+
+
     }
 }

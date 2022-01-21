@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Xna.Framework;
 using SharpDX.Direct3D11;
 
 namespace MoaAdventure
 {
-    class Entity
+    class Entity : DrawableGameComponent
     {
         protected int idLetter;
         protected string _name;
@@ -13,7 +14,7 @@ namespace MoaAdventure
         protected int PositionY;
         protected string _texture;
 
-        public Entity(int IdLetter, int positionX, int positionY)
+        public Entity(Game game, int IdLetter, int positionX, int positionY) : base(game)
         {
             idLetter = IdLetter;
             PositionY = positionY;

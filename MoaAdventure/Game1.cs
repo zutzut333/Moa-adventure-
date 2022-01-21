@@ -48,16 +48,22 @@ namespace MoaAdventure
         protected override void Initialize()
         {
             direction = new List<string>(){ "up","down","left","right","random"};
-
+            
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
 
-            
-           
-             _backgroundsPathList = new List<Texture2D>() 
+            _wallPathList = new List<Texture2D>()
+            {
+                Content.Load<Texture2D>("Sprites/wood"),
+                Content.Load < Texture2D > ("Sprites/snow"),
+                Content.Load < Texture2D > ("Sprites/brique"),
+                Content.Load < Texture2D > ("Sprites/beton")
+            };
+
+                _backgroundsPathList = new List<Texture2D>() 
             { Content.Load<Texture2D>("Sprites/background wood"),
                 Content.Load < Texture2D > ("Sprites/background snow"),
                 Content.Load < Texture2D > ("Sprites/background_champs"),
@@ -137,7 +143,7 @@ namespace MoaAdventure
                 {
                     for (int column = 0; column < _actualMap.Width; column++)
                     { 
-                        new CreateEntity (_actualMap.TileIdAt(column, line),column,line);
+                        new CreateEntity (this,_actualMap.TileIdAt(column, line),column,line);
                     }
                 }
             }
