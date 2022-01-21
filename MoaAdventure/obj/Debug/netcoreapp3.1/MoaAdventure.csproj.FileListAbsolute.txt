@@ -280,4 +280,3 @@ C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debu
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule sain.xnb
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\trou de Glace.xnb
 C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\épée magique.xnb
-C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache

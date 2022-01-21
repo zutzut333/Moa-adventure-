@@ -57,10 +57,10 @@ namespace MoaAdventure
 
             _wallPathList = new List<Texture2D>()
             {
-                Content.Load<Texture2D>("Sprites/wood"),
-                Content.Load < Texture2D > ("Sprites/snow"),
-                Content.Load < Texture2D > ("Sprites/brique"),
-                Content.Load < Texture2D > ("Sprites/beton")
+                Content.Load<Texture2D>("Sprites/Bois"),
+                Content.Load < Texture2D > ("Sprites/Glace"),
+                Content.Load < Texture2D > ("Sprites/Brique"),
+                Content.Load < Texture2D > ("Sprites/Beton")
             };
 
                 _backgroundsPathList = new List<Texture2D>() 

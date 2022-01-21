@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace MoaAdventure
 {
@@ -10,7 +11,7 @@ namespace MoaAdventure
         public void TakeItem() 
         { }
 
-        public PickableItem(int IdLetter, int positionX, int positionY) : base(IdLetter, positionX, positionY)
+        public PickableItem(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
         {
 
         }

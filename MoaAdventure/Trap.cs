@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace MoaAdventure
 {
@@ -8,7 +9,7 @@ namespace MoaAdventure
     {
         public string _type;
 
-        public Trap(int IdLetter, int positionX, int positionY, string type) : base(IdLetter, positionX, positionY)
+        public Trap(Game game, int IdLetter, int positionX, int positionY,string type) : base(game, IdLetter, positionX, positionY)
         {
             _type = type;
         }
