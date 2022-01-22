@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bf040061-da4a-4e41-a6b8-1e87f41c842a": {
+      "ProjectGuid": "bf040061-da4a-4e41-a6b8-1e87f41c842a",
+      "DisplayName": "MoaAdventure",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

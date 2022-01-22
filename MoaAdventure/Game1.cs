@@ -18,7 +18,7 @@ namespace MoaAdventure
 
         private List<string> direction;
 
-        public int ActualLevel = 2;
+        public int ActualLevel = 4;
         private Texture2D _mainTexture;
         private Map _actualMap;
         public bool isDoorPassed = true;
@@ -26,7 +26,6 @@ namespace MoaAdventure
         private List<Texture2D> _backgroundsPathList;
         private List<Texture2D> _heroPathList;
         private List<Texture2D> _wallPathList;
-        private List<Texture2D> _knightPathList;
         private List<Texture2D> _itemPathList;
         private List<Texture2D> _trapPathList;
         private List<Texture2D> _finalBossPathList;
@@ -80,9 +79,6 @@ namespace MoaAdventure
 
             _wallPathList = new List<Texture2D>() { Content.Load < Texture2D > ("Sprites/Brique"), Content.Load < Texture2D >( "Sprites/Glace") };
 
-            
-
-            _knightPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/Chevalier haut"), Content.Load<Texture2D>("Sprites/Chevalier bas") };
 
             _itemPathList = new List<Texture2D>() 
             { Content.Load<Texture2D>("Sprites/Carte"),
@@ -92,8 +88,6 @@ namespace MoaAdventure
             _buttonPath = Content.Load<Texture2D>("Sprites/Bouton");
 
              _trapPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/Mine"), Content.Load<Texture2D>("Sprites/trou de glace") };
-
-            _finalBossPathList = new List<Texture2D>() { Content.Load<Texture2D>("Sprites/tentacule sain"), Content.Load<Texture2D>("Sprites/tentacule bléssé") };
 
             _doorPath = Content.Load<Texture2D>("Sprites/porte Magique");
 

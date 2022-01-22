@@ -14,7 +14,7 @@ namespace MoaAdventure
             switch (idletter)
             {
                 case 1:
-                    Monster spider = new Monster(game, idletter, column, line);
+                    Spider spider = new Spider(game, idletter, column, line);
                     spider.DefineTexture("");
                     spider.DefineName("Spider");
                     spider.DefineSpeed(1);
@@ -26,24 +26,35 @@ namespace MoaAdventure
                     Button button = new Button(game, idletter, column, line);
                     button.DefineTexture("");
                     button.DefineName("Button");
+                    game.Components.Add(button);
                     break;
 
                 case 3:
                     PickableItem carte = new PickableItem(game, idletter, column, line);
                     carte.DefineTexture("");
                     carte.DefineName("Carte");
+                    game.Components.Add(carte);
                     break;
 
                 case 4:
                     Door door = new Door(game, idletter, column, line);
                     door.DefineTexture("");
                     door.DefineName("Door");
+                    game.Components.Add(door);
                     break;
 
                 case 5:
                     PickableItem epee  = new PickableItem(game, idletter, column, line);
                     epee.DefineTexture("");
                     epee.DefineName("Epee");
+                    game.Components.Add(epee);
+                    break;
+
+                case 6:
+                    Hurted_Octopus hurt = new Hurted_Octopus(game, idletter, column, line);
+                    hurt.DefineTexture("");
+                    hurt.DefineName("Hurt");
+                    game.Components.Add(hurt);
                     break;
 
                 case 8:
@@ -51,38 +62,45 @@ namespace MoaAdventure
                     hero.DefineTexture("");
                     hero.DefineName("Hero");
                     hero.DefineSpeed(2);
+                    game.Components.Add(hero);
                     break;
 
                 case 11:
-                    Monster knight = new Monster(game, idletter, column, line);
+                    Knight knight = new Knight(game, idletter, column, line);
                     knight.DefineTexture("");
                     knight.DefineName("Knight");
                     knight.DefineSpeed(2);
+                    knight.Update(gameTime);
+                    game.Components.Add(knight);
                     break;
 
                 case 13:
                     Trap mine = new Trap(game, idletter, column, line, "mine");
                     mine.DefineTexture("");
                     mine.DefineName("Mine");
+                    game.Components.Add(mine);
                     break;
 
                 case 15:
-                    Monster octopus = new Monster(game, idletter, column, line);
+                    Octopus octopus = new Octopus(game, idletter, column, line);
                     octopus.DefineTexture("");
                     octopus.DefineName("Octopus");
                     octopus.DefineSpeed(1);
+                    game.Components.Add(octopus);
                     break;
 
                 case 18:
                     PickableItem ruby = new PickableItem(game, idletter, column, line);
                     ruby.DefineTexture("");
                     ruby.DefineName("Ruby");
+                    game.Components.Add(ruby);
                     break;
 
                 case 19:
                     Wall snow = new Wall(game, idletter, column, line);
                     snow.DefineTexture("");
                     snow.DefineName("Snow");
+                    game.Components.Add(snow);
                     break;
 
 
@@ -90,12 +108,14 @@ namespace MoaAdventure
                     Trap trap = new Trap(game, idletter, column, line, "trap");
                     trap.DefineTexture("");
                     trap.DefineName("trap");
+                    game.Components.Add(trap);
                     break;
 
                 case 23:
                     Wall wood = new Wall(game, idletter, column, line);
                     wood.DefineTexture("");
                     wood.DefineName("Wood");
+                    game.Components.Add(wood);
                     break;
 
             }

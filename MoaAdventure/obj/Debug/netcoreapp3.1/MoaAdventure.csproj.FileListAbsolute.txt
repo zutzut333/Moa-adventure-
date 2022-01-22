@@ -367,7 +367,6 @@ G:\github Repository\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtime
 G:\github Repository\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
 G:\github Repository\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
 G:\github Repository\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
-G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.GeneratedMSBuildEditorConfig.editorconfig
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfoInputs.cache
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfo.cs
@@ -376,3 +375,4 @@ G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdve
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.dll
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.pdb
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.genruntimeconfig.cache
+G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache

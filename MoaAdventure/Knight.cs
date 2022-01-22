@@ -7,15 +7,15 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace MoaAdventure
 {
-    class Monster : Creature
+    class Knight : Creature
     {
         private int _Idletter;
         private int _positionX;
         private int _positionY;
-        private List<Texture2D> _spiderPathList;
+        private List<Texture2D> _knightPathList;
         private SpriteBatch _spriteBatch;
 
-        public Monster(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
+        public Knight(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
@@ -27,11 +27,9 @@ namespace MoaAdventure
         {
 
 
-            _spiderPathList = new List<Texture2D>()
-            { Game.Content.Load<Texture2D>("Sprites/Spider up"),
-                Game.Content.Load<Texture2D>("Sprites/Spider low"),
-                Game.Content.Load<Texture2D>("Sprites/Spider left"),
-                Game.Content.Load<Texture2D>("Sprites/Spider right") };
+            _knightPathList = new List<Texture2D>()
+            { Game.Content.Load<Texture2D>("Sprites/Chevalier bas"),
+                Game.Content.Load<Texture2D>("Sprites/Chevalier haut")};
 
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
@@ -49,7 +47,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_spiderPathList[1], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_knightPathList[1], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
