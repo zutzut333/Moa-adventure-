@@ -8,7 +8,7 @@ namespace MoaAdventure
 {
     class CreateEntity
     {
-        public CreateEntity(Game game ,int idletter, int column, int line,GameTime gameTime) 
+        public CreateEntity(Game game ,int idletter, int column, int line,GameTime gameTime, int ActualLevel) 
         {
 
             switch (idletter)
@@ -97,7 +97,7 @@ namespace MoaAdventure
                     break;
 
                 case 19:
-                    Wall snow = new Wall(game, idletter, column, line);
+                    Wall snow = new Wall(game, idletter, column, line, ActualLevel);
                     snow.DefineTexture("");
                     snow.DefineName("Snow");
                     game.Components.Add(snow);
@@ -112,7 +112,7 @@ namespace MoaAdventure
                     break;
 
                 case 23:
-                    Wall wood = new Wall(game, idletter, column, line);
+                    Wall wood = new Wall(game, idletter, column, line, ActualLevel);
                     wood.DefineTexture("");
                     wood.DefineName("Wood");
                     game.Components.Add(wood);
