@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/porte Magique.png</SourceFile>
-  <SourceTime>2022-01-20T15:18:16.7872886+01:00</SourceTime>
-  <DestFile>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/porte Magique.xnb</DestFile>
-  <DestTime>2022-01-20T15:41:53.9415703+01:00</DestTime>
+  <SourceFile>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/porte Magique.png</SourceFile>
+  <SourceTime>2022-01-21T22:13:10.7524278+01:00</SourceTime>
+  <DestFile>G:/github Repository/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/porte Magique.xnb</DestFile>
+  <DestTime>2022-01-21T22:15:24.5898463+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

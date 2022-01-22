@@ -1,3 +1,9 @@
 is_global = true
+build_property.ApplicationManifest = app.manifest
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = MoaAdventure
-build_property.ProjectDir = C:\Users\Jean-Amedee.BOSCH\Documents\GitHub\Moa-adventure-\MoaAdventure\
+build_property.ProjectDir = G:\github Repository\Moa-adventure-\MoaAdventure\

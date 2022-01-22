@@ -4,34 +4,34 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/background snow.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/background wood.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/background_champs.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/background_fortress.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Beton.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Bois.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Bouton.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Brique.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/carte.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Chevalier bas.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Chevalier haut.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/épée magique.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Glace.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Mine.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso droite.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso face.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso gauche.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso haut.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Perso test.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Pierre Magique.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/porte Magique.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Spider left.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Spider low.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Spider right.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Spider up.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/tentacule Bléssé.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/tentacule sain.png</File>
-    <File>C:/Users/Jean-Amedee.BOSCH/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/trou de Glace.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/background snow.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/background wood.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/background_champs.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/background_fortress.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Beton.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Bois.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Bouton.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Brique.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/carte.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Chevalier bas.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Chevalier haut.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/épée magique.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Glace.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Mine.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Perso droite.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Perso face.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Perso gauche.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Perso haut.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Perso test.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Pierre Magique.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/porte Magique.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Spider left.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Spider low.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Spider right.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/Spider up.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/tentacule Bléssé.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/tentacule sain.png</File>
+    <File>G:/github Repository/Moa-adventure-/MoaAdventure/Content/Sprites/trou de Glace.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
