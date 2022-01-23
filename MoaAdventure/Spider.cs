@@ -56,15 +56,18 @@ namespace MoaAdventure
             }
             if (direction == "up" || direction == "down") 
             { 
-                _positionX = this.Move("down", _positionX, _positionY, gameTime).Item1;
+                _positionY = this.Move(direction, _positionX, _positionY, gameTime).Item2;
                 if (direction == "up") _textureSense = 0;
                 else _textureSense = 1;
             }
             else if(direction == "left" || direction == "right")
             {
-                this._positionY = this.Move("down", _positionX, _positionY, gameTime).Item2;
+                this._positionX = this.Move(direction, _positionX, _positionY, gameTime).Item1;
                 if (direction == "left") _textureSense = 2;
-                else _textureSense = 3;
+                else 
+                { 
+                    _textureSense = 3; 
+                }
             }
             if (count != 20) count++;
             else count = 0;
