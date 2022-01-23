@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tanol\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj": {}
+    "G:\\github Repository\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tanol\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj": {
+    "G:\\github Repository\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tanol\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
+        "projectUniqueName": "G:\\github Repository\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
         "projectName": "MoaAdventure",
-        "projectPath": "C:\\Users\\tanol\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
-        "packagesPath": "C:\\Users\\tanol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tanol\\Documents\\GitHub\\Moa-adventure-\\MoaAdventure\\obj\\",
+        "projectPath": "G:\\github Repository\\Moa-adventure-\\MoaAdventure\\MoaAdventure.csproj",
+        "packagesPath": "C:\\Users\\Jean-amedi\\.nuget\\packages\\",
+        "outputPath": "G:\\github Repository\\Moa-adventure-\\MoaAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jean-amedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
@@ -65,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
