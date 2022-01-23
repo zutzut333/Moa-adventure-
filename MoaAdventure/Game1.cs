@@ -12,7 +12,7 @@ namespace MoaAdventure
     {
         public const int WINDOW_WIDTH = 14 * 64;
         public const int WINDOW_HEIGHT = 10 * 64;
-        private GraphicsDeviceManager _graphics;
+        public static GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
 

@@ -14,10 +14,10 @@ namespace MoaAdventure
             switch (idletter)
             {
                 case 1:
-                    Spider spider = new Spider(game, idletter, column, line);
+                    Spider spider = new Spider(game, idletter, column, line,1);
                     spider.DefineTexture("");
                     spider.DefineName("Spider");
-                    spider.DefineSpeed(1);
+                    spider.DefineSpeed(10);
                     spider.Update(gameTime);
                     game.Components.Add(spider);
                     break;
@@ -51,25 +51,25 @@ namespace MoaAdventure
                     break;
 
                 case 6:
-                    Hurted_Octopus hurt = new Hurted_Octopus(game, idletter, column, line);
+                    Hurted_Octopus hurt = new Hurted_Octopus(game, idletter, column, line,0);
                     hurt.DefineTexture("");
                     hurt.DefineName("Hurt");
                     game.Components.Add(hurt);
                     break;
 
                 case 8:
-                    Hero hero = new Hero(game, idletter, column, line);
+                    Hero hero = new Hero(game, idletter, column, line,1);
                     hero.DefineTexture("");
                     hero.DefineName("Hero");
-                    hero.DefineSpeed(2);
+                    hero.DefineSpeed(10);
                     game.Components.Add(hero);
                     break;
 
                 case 11:
-                    Knight knight = new Knight(game, idletter, column, line);
+                    Knight knight = new Knight(game, idletter, column, line,1);
                     knight.DefineTexture("");
                     knight.DefineName("Knight");
-                    knight.DefineSpeed(2);
+                    knight.DefineSpeed(7);
                     knight.Update(gameTime);
                     game.Components.Add(knight);
                     break;
@@ -82,10 +82,10 @@ namespace MoaAdventure
                     break;
 
                 case 15:
-                    Octopus octopus = new Octopus(game, idletter, column, line);
+                    Octopus octopus = new Octopus(game, idletter, column, line,0);
                     octopus.DefineTexture("");
                     octopus.DefineName("Octopus");
-                    octopus.DefineSpeed(1);
+                    octopus.DefineSpeed(100);
                     game.Components.Add(octopus);
                     break;
 

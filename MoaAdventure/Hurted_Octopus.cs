@@ -10,12 +10,12 @@ namespace MoaAdventure
     class Hurted_Octopus : Creature
     {
         private int _Idletter;
-        private int _positionX;
-        private int _positionY;
+        private double _positionX;
+        private double _positionY;
         private List<Texture2D> _HurtTexture;
         private SpriteBatch _spriteBatch;
 
-        public Hurted_Octopus(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
+        public Hurted_Octopus(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY,textureSense)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
@@ -44,7 +44,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_HurtTexture[0], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_HurtTexture[0], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);

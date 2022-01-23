@@ -10,13 +10,13 @@ namespace MoaAdventure
     class Wall : Entity
     {
         private int _Idletter;
-        private int _positionX;
-        private int _positionY;
+        private double _positionX;
+        private double _positionY;
         private int _actualLevel;
         private List<Texture2D> _WallTexture;
         private SpriteBatch _spriteBatch;
         
-        public Wall(Game game, int IdLetter, int positionX, int positionY,int ActualLevel) : base(game, IdLetter, positionX, positionY)
+        public Wall(Game game, int IdLetter, double positionX, double positionY,int ActualLevel) : base(game, IdLetter, positionX, positionY)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
@@ -50,7 +50,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_WallTexture[_actualLevel], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_WallTexture[_actualLevel], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);

@@ -10,12 +10,12 @@ namespace MoaAdventure
     class Spider : Creature
     {
         private int _Idletter;
-        private int _positionX;
-        private int _positionY;
+        private double _positionX;
+        private double _positionY;
         private List<Texture2D> _spiderPathList;
         private SpriteBatch _spriteBatch;
 
-        public Spider(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
+        public Spider(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY,textureSense)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
@@ -41,6 +41,8 @@ namespace MoaAdventure
         public override void Update(GameTime gameTime)
         {
 
+            this._positionX = this.Move("random", _positionX, _positionY, gameTime).Item1;
+            this._positionY = this.Move("random", _positionX, _positionY, gameTime).Item2;
             Draw(gameTime);
             base.Update(gameTime);
 
@@ -49,7 +51,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_spiderPathList[1], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_spiderPathList[1], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
