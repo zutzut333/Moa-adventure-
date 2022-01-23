@@ -17,7 +17,7 @@ namespace MoaAdventure
                     Spider spider = new Spider(game, idletter, column, line,1);
                     spider.DefineTexture("");
                     spider.DefineName("Spider");
-                    spider.DefineSpeed(10);
+                    spider.DefineSpeed(7);
                     spider.Update(gameTime);
                     game.Components.Add(spider);
                     break;

@@ -32,41 +32,35 @@ namespace MoaAdventure
         
             public (double, double) Move(string direction,double positionX, double positionY,GameTime gameTime) 
             {
-            List<string> newDirection;
-            newDirection = new List<string>() { "up", "down", "left", "right" };
-            Random rand = new Random();
-            double time = gameTime.ElapsedGameTime.TotalSeconds;
-            bool isSpider;
-                do
-                {
-                isSpider = false;
+            double time;
+
+
+            if (this.idLetter == 8) time = gameTime.ElapsedGameTime.TotalSeconds;
+            else time = 0.02;
+            
+                
+                
                     switch (direction)
                     {
                         case "up":
                             positionY -= Speed * time;
-                            this.textureSense = 0;
+                            
                                 break;
                         case "down":
                             positionY += Speed * time;
-                            this.textureSense = 1;
+                            
                                 break;
                         case "left":
                             positionX -= Speed * time;
-                            this.textureSense = 2;
+                            
                                 break;
                         case "right":
                             positionX += Speed * time;
-                            this.textureSense = 3;
+                            
                                 break;
-                        case "random":
                         
-                            int randomDirection=rand.Next(0, 4);
-                            direction = newDirection[randomDirection];
-                            time = 0.02;
-                            isSpider = true;
-                                break;
                     }
-                } while (isSpider == true);
+                
                 if (positionX * 64 > _graphics.PreferredBackBufferWidth - 64)
                         positionX = (_graphics.PreferredBackBufferWidth - 64) / 64;
                 else if (positionX < 0)

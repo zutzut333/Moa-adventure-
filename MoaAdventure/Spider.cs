@@ -14,12 +14,16 @@ namespace MoaAdventure
         private double _positionY;
         private List<Texture2D> _spiderPathList;
         private SpriteBatch _spriteBatch;
-
+        private int _textureSense;
+        int count = 0;
+        int randomDirection;
+        string direction;
         public Spider(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY,textureSense)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
             _positionY = PositionY;
+            _textureSense = textureSense;
             LoadContent();
         }
 
@@ -41,8 +45,31 @@ namespace MoaAdventure
         public override void Update(GameTime gameTime)
         {
 
-            this._positionX = this.Move("random", _positionX, _positionY, gameTime).Item1;
-            this._positionY = this.Move("random", _positionX, _positionY, gameTime).Item2;
+            
+            List<string> newDirection;
+            newDirection = new List<string>() { "up", "down", "left", "right" };
+            Random rand = new Random();
+            if (count == 0)
+            {
+                randomDirection = rand.Next(0, 4);
+                direction = newDirection[randomDirection];
+            }
+            if (direction == "up" || direction == "down") 
+            { 
+                _positionX = this.Move("down", _positionX, _positionY, gameTime).Item1;
+                if (direction == "up") _textureSense = 0;
+                else _textureSense = 1;
+            }
+            else if(direction == "left" || direction == "right")
+            {
+                this._positionY = this.Move("down", _positionX, _positionY, gameTime).Item2;
+                if (direction == "left") _textureSense = 2;
+                else _textureSense = 3;
+            }
+            if (count != 20) count++;
+            else count = 0;
+            
+            
             Draw(gameTime);
             base.Update(gameTime);
 
@@ -51,7 +78,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_spiderPathList[1], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_spiderPathList[_textureSense], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
@@ -59,26 +86,7 @@ namespace MoaAdventure
 
 
 
-        //public string pathType;
-        /*public void Move(string pathType) 
-        {
-            if (pathType == "vertical")
-            {
-                //if (direction = "up")
-                // {//tant que pos y > pos finalup -> monte
-                // direction = "down"}
-
-                    //if (direction = "down")
-                    // {//tant que pos y < pos finaldown -> descend
-                    // direction = "up"}
-
-            }
-                else if (pathType == "random") 
-            {
-           //move(random)
-            }
-        }*/
-
+       
 
     }
 }
