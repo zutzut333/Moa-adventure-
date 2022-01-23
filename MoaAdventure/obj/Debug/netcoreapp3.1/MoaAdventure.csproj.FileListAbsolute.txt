@@ -376,3 +376,97 @@ G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdve
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.pdb
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.genruntimeconfig.cache
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\backgrond champs.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\backgrond fortress.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\background snow.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\background wood.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Beton.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Bois.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Bouton.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Brique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\carte.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Chevalier bas.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Chevalier haut.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Glace.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Mine.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso droite.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso face.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso gauche.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Perso haut.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Pierre Magique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\porte Magique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider left.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider low.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider right.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\Spider up.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\tentacule Bléssé.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\tentacule sain.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\trou de Glace.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\obj\Windows\Content\épée magique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\backgrond champs.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\backgrond fortress.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background snow.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background wood.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_champs.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_fortress.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Beton.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bois.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Bouton.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Brique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\carte.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier bas.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Chevalier haut.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Glace.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Mine.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso droite.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso face.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso gauche.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso haut.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Perso test.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Pierre Magique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\porte Magique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider left.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider right.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider up.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule Bléssé.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\tentacule sain.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\trou de Glace.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\épée magique.xnb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MoaAdventure.exe
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.png
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MoaAdventure.deps.json
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MoaAdventure.runtimeconfig.json
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MoaAdventure.runtimeconfig.dev.json
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MoaAdventure.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MoaAdventure.pdb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csprojAssemblyReference.cache
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.CoreCompileInputs.cache
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfoInputs.cache
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfo.cs
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.CopyComplete
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.dll
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.pdb
+C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.genruntimeconfig.cache

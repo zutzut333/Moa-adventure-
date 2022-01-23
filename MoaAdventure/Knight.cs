@@ -10,17 +10,21 @@ namespace MoaAdventure
     class Knight : Creature
     {
         private int _Idletter;
-        private int _positionX;
-        private int _positionY;
+        private double _positionX;
+        private double _positionY;
         private List<Texture2D> _knightPathList;
         private SpriteBatch _spriteBatch;
+        private bool init = true;
+        bool wayDown;
+        int _textureSense;
 
-        public Knight(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
+        public Knight(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY,textureSense)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
             _positionY = PositionY;
             LoadContent();
+            _textureSense = textureSense;
         }
 
         protected override void LoadContent()
@@ -38,6 +42,32 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
+            
+            
+            if(init)
+            {
+               wayDown = true;
+               init = false;
+            } 
+            if (wayDown) 
+            {
+                _textureSense = 0;
+                if (_positionY>=9) wayDown = false;
+                else this._positionY = this.Move("down", _positionX, _positionY, gameTime).Item2;
+            }
+            else 
+            {
+                _textureSense = 1;
+                if (_positionY <= 0) wayDown = true;
+                else this._positionY = this.Move("up", _positionX, _positionY, gameTime).Item2;
+            }
+
+            
+            
+                    
+                
+            
+                
 
             Draw(gameTime);
             base.Update(gameTime);
@@ -47,7 +77,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_knightPathList[1], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_knightPathList[_textureSense], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
@@ -55,25 +85,7 @@ namespace MoaAdventure
 
 
 
-        //public string pathType;
-        /*public void Move(string pathType) 
-        {
-            if (pathType == "vertical")
-            {
-                //if (direction = "up")
-                // {//tant que pos y > pos finalup -> monte
-                // direction = "down"}
-
-                    //if (direction = "down")
-                    // {//tant que pos y < pos finaldown -> descend
-                    // direction = "up"}
-
-            }
-                else if (pathType == "random") 
-            {
-           //move(random)
-            }
-        }*/
+       
 
 
     }

@@ -10,13 +10,13 @@ namespace MoaAdventure
     {
         public string _type;
         private int _Idletter;
-        private int _positionX;
-        private int _positionY;
+        private double _positionX;
+        private double _positionY;
         private List<Texture2D> _TrapTexture;
         private SpriteBatch _spriteBatch;
 
 
-        public Trap(Game game, int IdLetter, int positionX, int positionY,string type) : base(game, IdLetter, positionX, positionY)
+        public Trap(Game game, int IdLetter, double positionX, double positionY,string type) : base(game, IdLetter, positionX, positionY)
         {
             _type = type;
             _Idletter = IdLetter;
@@ -47,7 +47,7 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_TrapTexture[0], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            _spriteBatch.Draw(_TrapTexture[0], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);

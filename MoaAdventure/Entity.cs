@@ -10,11 +10,11 @@ namespace MoaAdventure
     {
         protected int idLetter;
         protected string _name;
-        protected int PositionX;
-        protected int PositionY;
+        protected double PositionX;
+        protected double PositionY;
         protected string _texture;
 
-        public Entity(Game game, int IdLetter, int positionX, int positionY) : base(game)
+        public Entity(Game game, int IdLetter, double positionX, double positionY) : base(game)
         {
             idLetter = IdLetter;
             PositionY = positionY;

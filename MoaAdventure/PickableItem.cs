@@ -11,12 +11,12 @@ namespace MoaAdventure
     {
         private bool _taken;
         private int _Idletter;
-        private int _positionX;
-        private int _positionY;
+        private double _positionX;
+        private double _positionY;
         private List<Texture2D> _ItemsTexture;
         private SpriteBatch _spriteBatch;
 
-        public PickableItem(Game game, int IdLetter, int positionX, int positionY) : base(game, IdLetter, positionX, positionY)
+        public PickableItem(Game game, int IdLetter, double positionX, double positionY) : base(game, IdLetter, positionX, positionY)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
@@ -49,7 +49,12 @@ namespace MoaAdventure
         public override void Draw(GameTime gameTime)
         {
             _spriteBatch.Begin();
-            _spriteBatch.Draw(_ItemsTexture[0], new Vector2(_positionX * 64, _positionY * 64), null, Color.White);
+            if(_Idletter==3)
+                _spriteBatch.Draw(_ItemsTexture[0], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
+            else if(_Idletter == 5)
+                _spriteBatch.Draw(_ItemsTexture[1], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
+            else if (_Idletter == 18)
+                _spriteBatch.Draw(_ItemsTexture[2], new Vector2((float)_positionX * 64, (float)_positionY * 64), null, Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
