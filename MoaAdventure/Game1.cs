@@ -19,7 +19,12 @@ namespace MoaAdventure
         private List<string> direction;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public static int ActualLevel =3 ;
+=======
+        public static int _lifeNumber;
+        public static int ActualLevel =1 ;
+>>>>>>> Stashed changes
 =======
         public static int _lifeNumber;
         public static int ActualLevel =1 ;

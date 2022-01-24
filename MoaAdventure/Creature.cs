@@ -139,10 +139,14 @@ namespace MoaAdventure
                 
             }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             if (_entity != null) {
                 supressItem();
                     };
 
+=======
+                
+>>>>>>> Stashed changes
 =======
                 
 >>>>>>> Stashed changes

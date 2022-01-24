@@ -25,9 +25,16 @@ namespace MoaAdventure
             _positionX = PositionX;
             _positionY = PositionY;
             LoadContent();
+<<<<<<< Updated upstream
             
             _textureSense = textureSense;
 
+=======
+            
+            _textureSense = textureSense;
+            
+           
+>>>>>>> Stashed changes
         }
         
 
