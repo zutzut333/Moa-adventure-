@@ -93,7 +93,7 @@ namespace MoaAdventure
                     if (distance < 0.8 && distance != 0)
                     {
                         //si c'est un mur ou une porte
-                        if (entity.IdLetter == 23  || entity.IdLetter == 19)
+                        if (entity.IdLetter == 23  || entity.IdLetter == 19 || entity.IdLetter == 7)
                         {
                             //la position revient à sa situation d'entrée dans move'
 

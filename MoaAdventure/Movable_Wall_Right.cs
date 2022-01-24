@@ -27,12 +27,12 @@ namespace MoaAdventure
 
         public void moveRight()
         {
-            _positionX = _positionX + 128;
+            positionX = positionX + 128;
         }
 
         public void moveLeft()
         {
-            _positionX = _positionX - 128;
+            positionX = positionX - 128;
         }
 
         protected override void LoadContent()
