@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using static MoaAdventure.Game1;
 
+
 namespace MoaAdventure
 {
     class Creature : Entity
@@ -60,7 +61,7 @@ namespace MoaAdventure
                                 break;
                         
                     }
-                
+                //collision avec les murs de la fenêtre
                 if (positionX * 64 > _graphics.PreferredBackBufferWidth - 64)
                         positionX = (_graphics.PreferredBackBufferWidth - 64) / 64;
                 else if (positionX < 0)
@@ -70,20 +71,29 @@ namespace MoaAdventure
                     positionY = (_graphics.PreferredBackBufferHeight - 64) / 64;
                 else if (positionY < 0)positionY = 0;
 
+
+                //je parcours chaque entité stockées dans game.component
                 foreach (Entity entity in Game.Components)
                 {
+                //si l'entité en cours de move n'est pas l'entité dans le foreach
                 if (Game.Components.IndexOf(this) != Game.Components.IndexOf(entity)) 
                 {
+                    //je calcule la distance entre les deux
                     double distance;
+                    //pythagore
                     distance = Math.Sqrt(Math.Pow(MathHelper.Distance((float)positionX, (float)entity.positionX), 2) + Math.Pow(MathHelper.Distance((float)positionY, (float)entity.positionY), 2));
+                    //si la distance vaut moins de 1
                     if (distance < 1 && distance != 0)
                     {
-                        if (entity.IdLetter == 23||entity.IdLetter==4) 
+                        //si c'est un mur ou une porte
+                        if (entity.IdLetter == 23 || entity.IdLetter == 4 || entity.IdLetter == 19)
                         {
+                            //la position revient à sa situation d'entrée dans move'
                             positionY = basicPositionY;
                             positionX = basicPositionX;
                         }
-                        if (this.idLetter == 8 && (entity.IdLetter == 1||entity.IdLetter==11||entity.IdLetter==13|| entity.IdLetter == 20))Hero.Die();
+                        //si c'est le hero qui move et si c'est (un monstre ou un trap)
+                        if (this.idLetter == 8 && (entity.IdLetter == 1 || entity.IdLetter == 11 || entity.IdLetter == 13 || entity.IdLetter == 20))Hero.Die(entity.IdLetter, this); 
                     }
                 }
 
