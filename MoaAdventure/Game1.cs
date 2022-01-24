@@ -14,13 +14,14 @@ namespace MoaAdventure
         public const int WINDOW_HEIGHT = 10 * 64;
         public static GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private bool test = false;
 
 
         private List<string> direction;
 
 
         public static int _lifeNumber;
-        public static int ActualLevel =4 ;
+        public static int ActualLevel =1 ;
 
         private Texture2D _mainTexture;
         public Map _actualMap;
@@ -72,22 +73,29 @@ namespace MoaAdventure
 
         protected override void Update(GameTime gameTime)
         {
+            if (Input.PlayerDown)
+            {
+                test = true;
+            }
+
+
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-           if( isDoorPassed == true ){ 
+            if (test == false)
+            {
+                _mainTexture = _TextPathList[0];
+                _actualMap = new LevelLoader("../../../Data/EmptyMap.txt").map;
+            }
+            else if (isDoorPassed == true && test == true);
+            { 
                switch (ActualLevel)
                 {
                     case 1:
-                        
-                        while (Input.ExitRequested)
-                        {
-                            _mainTexture = _TextPathList[0];
-                        }
-
+                       
                         _mainTexture = _backgroundsPathList[0]; 
                         _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
-                        Debug.WriteLine(_actualMap.TileIdAt(12,0));
+                       // Debug.WriteLine(_actualMap.TileIdAt(12,0));
                         break;
                     case 2:
                         _mainTexture = _backgroundsPathList[1];
@@ -103,20 +111,21 @@ namespace MoaAdventure
                         break;
                 }
 
-               for (int line = 0; line < _actualMap.Height; line++)
-               {
-                   for (int column = 0; column < _actualMap.Width; column++)
-                   {
-                       new CreateEntity(this, _actualMap.TileIdAt(column, line), column, line, gameTime, ActualLevel);
+                /*     for (int line = 0; line < _actualMap.Height; line++)
+                     {
+                         for (int column = 0; column < _actualMap.Width; column++)
+                         {
+                             new CreateEntity(this, _actualMap.TileIdAt(column, line), column, line, gameTime, ActualLevel);
 
-                   }
-               }
+                         }
+                     }
 
-                isDoorPassed = false;
+                      isDoorPassed = false;
 
-           }
+                */
+            }
 
-           
+
 
             base.Update(gameTime);
         }
