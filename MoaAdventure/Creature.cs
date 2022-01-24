@@ -90,17 +90,18 @@ namespace MoaAdventure
                     //pythagore
                     distance = Math.Sqrt(Math.Pow(MathHelper.Distance((float)positionX, (float)entity.positionX), 2) + Math.Pow(MathHelper.Distance((float)positionY, (float)entity.positionY), 2));
                     //si la distance vaut moins de 1
-                    if (distance < 1 && distance != 0)
+                    if (distance < 0.8 && distance != 0)
                     {
                         //si c'est un mur ou une porte
                         if (entity.IdLetter == 23  || entity.IdLetter == 19)
                         {
                             //la position revient à sa situation d'entrée dans move'
+
                             positionY = basicPositionY;
                             positionX = basicPositionX;
                         }
 
-                        if(entity.IdLetter == 4)
+                        if(entity.IdLetter == 4 &&this.idLetter==8)
                         {
                             // si hero + item passe sinon comme au dessus
                             if(Door._lock == false)
