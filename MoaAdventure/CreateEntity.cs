@@ -59,10 +59,10 @@ namespace MoaAdventure
                     break;
 
                 case 7:
-                    Movable_Wall_Right movable_wall_left = new Movable_Wall_Right(game, idletter, column, line, 0);
-                    movable_wall_left.DefineTexture("");
-                    movable_wall_left.DefineName("Hurt");
-                    game.Components.Add(movable_wall_left);
+                    Movable_Wall movable_wall = new Movable_Wall(game, idletter, column, line, 0);
+                    movable_wall.DefineTexture("");
+                    movable_wall.DefineName("Hurt");
+                    game.Components.Add(movable_wall);
                     break;
 
 
@@ -74,12 +74,7 @@ namespace MoaAdventure
                     game.Components.Add(hero);
                     break;
 
-                case 9:
-                    Movable_Wall_Right movable_wall_right = new Movable_Wall_Right(game, idletter, column, line, 0);
-                    movable_wall_right.DefineTexture("");
-                    movable_wall_right.DefineName("Hurt");
-                    game.Components.Add(movable_wall_right);
-                    break;
+             
 
                 case 11:
                     Knight knight = new Knight(game, idletter, column, line,1);

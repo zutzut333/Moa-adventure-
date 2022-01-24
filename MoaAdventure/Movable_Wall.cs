@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace MoaAdventure
 {
 
-    class Movable_Wall_Right : Entity
+    class Movable_Wall : Entity
     {
         private int _Idletter;
         private double _positionX;
@@ -16,7 +16,7 @@ namespace MoaAdventure
         private List<Texture2D> _WallTexture;
         private SpriteBatch _spriteBatch;
 
-        public Movable_Wall_Right(Game game, int IdLetter, double positionX, double positionY, int ActualLevel) : base(game, IdLetter, positionX, positionY)
+        public Movable_Wall(Game game, int IdLetter, double positionX, double positionY, int ActualLevel) : base(game, IdLetter, positionX, positionY)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;

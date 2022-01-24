@@ -125,7 +125,7 @@ namespace MoaAdventure
 
                         }
                         // button Up
-                        if( entity.IdLetter == 7)
+                        if( entity.IdLetter == 2)
                         {
                             Button_Up.activateButton_Up();
                         }
