@@ -18,7 +18,12 @@ namespace MoaAdventure
 
         private List<string> direction;
 
+<<<<<<< Updated upstream
         public static int ActualLevel =3 ;
+=======
+        public static int _lifeNumber;
+        public static int ActualLevel =1 ;
+>>>>>>> Stashed changes
         private Texture2D _mainTexture;
         public Map _actualMap;
         public static bool isDoorPassed = true;
@@ -41,6 +46,7 @@ namespace MoaAdventure
 
         protected override void Initialize()
         {
+            _lifeNumber = 3;
             direction = new List<string>(){ "up","down","left","right","random"};
             
             base.Initialize();

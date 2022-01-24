@@ -16,7 +16,7 @@ namespace MoaAdventure
         private int _textureSense;
         private List<Texture2D> _HeroTexture;
         private SpriteBatch _spriteBatch;
-        private static int _lifeNumber;
+        
         
 
        public Hero(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY, textureSense)
@@ -25,14 +25,11 @@ namespace MoaAdventure
             _positionX = PositionX;
             _positionY = PositionY;
             LoadContent();
-            _lifeNumber = 3;
+            
             _textureSense = textureSense;
 
         }
-        public static int lifenumber 
-        {
-            get { return _lifeNumber; }
-        }
+        
 
         protected override void LoadContent()
         {
@@ -49,9 +46,9 @@ namespace MoaAdventure
             base.LoadContent();
         }
 
-        public static void Die(int cause,Entity   deadCreature) 
+        public static void Die(Game game, int cause,Entity   deadCreature) 
         { 
-            _lifeNumber--;
+            Game1._lifeNumber--;
             if (_lifeNumber == 0) 
             {
                 Game1.ActualLevel = 1;
@@ -61,9 +58,10 @@ namespace MoaAdventure
             else 
             {
                 //LifeDecreased(cause);
-                //Game.Components.RemoveAt(Game.Components.IndexOf(deadCreature));
+                
                  
             }
+            game.Components.Clear();
             Game1.isDoorPassed = true;
         }
         public override void Update(GameTime gameTime)

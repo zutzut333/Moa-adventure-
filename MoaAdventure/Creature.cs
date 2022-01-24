@@ -125,16 +125,27 @@ namespace MoaAdventure
                         
 
                         //si c'est le hero qui move et si c'est (un monstre ou un trap)
-                        if (this.idLetter == 8 && (entity.IdLetter == 1 || entity.IdLetter == 11 || entity.IdLetter == 13 || entity.IdLetter == 20))Hero.Die(entity.IdLetter, this); 
+                        if (
+                            (this.idLetter == 8 && 
+                                (entity.IdLetter == 1 || entity.IdLetter == 11 || entity.IdLetter == 13 || entity.IdLetter == 20))||
+                            (entity.IdLetter == 8 && (this.idLetter == 1 || this.idLetter == 11 || this.idLetter == 13 || this.idLetter == 20)))
+                        {
+                            Hero.Die(Game, entity.IdLetter, this);
+                            break;
+                        }
                     }
                 }
 
                 
             }
+<<<<<<< Updated upstream
             if (_entity != null) {
                 supressItem();
                     };
 
+=======
+                
+>>>>>>> Stashed changes
                 return (positionX,positionY);
                 
                 
