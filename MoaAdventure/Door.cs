@@ -22,7 +22,10 @@ namespace MoaAdventure
             LoadContent();
         }
 
-        public void changeLevel() { }
+        public void changeLevel() {
+        
+        
+        }
 
         protected override void LoadContent()
         {

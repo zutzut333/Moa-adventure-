@@ -470,3 +470,4 @@ G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdve
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.dll
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.pdb
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.png
