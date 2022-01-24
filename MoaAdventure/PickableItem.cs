@@ -5,11 +5,11 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 
+
 namespace MoaAdventure
 {
     class PickableItem : Entity
     {
-        private bool _taken;
         private int _Idletter;
         private double _positionX;
         private double _positionY;
@@ -23,8 +23,6 @@ namespace MoaAdventure
             _positionY = PositionY;
             LoadContent();
         }
-        public void TakeItem()
-        { }
 
         protected override void LoadContent()
         {

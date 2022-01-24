@@ -136,7 +136,6 @@ C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debu
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background wood.xnb
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_champs.xnb
 C:\Users\nathanael.collaud\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\background_fortress.xnb
-C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfoInputs.cache
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.AssemblyInfo.cs
@@ -471,3 +470,4 @@ G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdve
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.pdb
 G:\github Repository\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\Sprites\Spider low.png
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache

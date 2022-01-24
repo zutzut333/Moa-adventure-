@@ -27,8 +27,7 @@ namespace MoaAdventure
             LoadContent();
             _lifeNumber = 3;
             _textureSense = textureSense;
-            
-           
+
         }
         public static int lifenumber 
         {
@@ -38,7 +37,7 @@ namespace MoaAdventure
         protected override void LoadContent()
         {
 
-
+            
             _HeroTexture = new List<Texture2D>()
            {   Game.Content.Load < Texture2D > ("Sprites/Perso haut"),
                 Game.Content.Load<Texture2D>("Sprites/Perso face"),

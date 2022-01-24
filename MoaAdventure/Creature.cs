@@ -11,10 +11,17 @@ namespace MoaAdventure
     {
         private int textureSense;
         private int _speed;
+        private Microsoft.Xna.Framework.GameComponent _entity; 
 
         public Creature(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY)
         {
 
+        }
+
+        public void supressItem()
+        {
+            Game.Components.RemoveAt(Game.Components.IndexOf(_entity));
+            _entity = null;
         }
 
         public void DefineSpeed(int speed)
@@ -86,19 +93,39 @@ namespace MoaAdventure
                     if (distance < 1 && distance != 0)
                     {
                         //si c'est un mur ou une porte
-                        if (entity.IdLetter == 23 || entity.IdLetter == 4 || entity.IdLetter == 19)
+                        if (entity.IdLetter == 23  || entity.IdLetter == 19)
                         {
                             //la position revient à sa situation d'entrée dans move'
                             positionY = basicPositionY;
                             positionX = basicPositionX;
                         }
+
+                        if(entity.IdLetter == 4)
+                        {
+                            // si hero + item passe sinon comme au dessus 
+
+
+                        }
+
+                        if( entity.IdLetter == 3 || entity.IdLetter == 5 || entity.IdLetter == 18)
+                        {
+                            Door.doorUnlocked();
+                            _entity = entity;
+
+                        }
+                        
+
                         //si c'est le hero qui move et si c'est (un monstre ou un trap)
                         if (this.idLetter == 8 && (entity.IdLetter == 1 || entity.IdLetter == 11 || entity.IdLetter == 13 || entity.IdLetter == 20))Hero.Die(entity.IdLetter, this); 
                     }
                 }
 
-
+                
             }
+            if (_entity != null) {
+                supressItem();
+                    };
+
                 return (positionX,positionY);
                 
                 
