@@ -125,19 +125,19 @@ namespace MoaAdventure
 
                         }
                         // button Up
-                        if( this.idLetter == 2)
+                        if( entity.IdLetter == 2)
                         {
                             Button_Up.activateButton_Up();
                         }
 
                         // button right
-                        if (this.idLetter == 12)
+                        if (entity.IdLetter == 12)
                         {
                             Button_Right.activateButton_Right();
                         }
 
                         // button left
-                        if (this.idLetter == 14)
+                        if (entity.IdLetter == 14)
                         {
                             Button_Left.activateButton_Left();
                         }

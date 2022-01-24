@@ -26,7 +26,8 @@ namespace MoaAdventure
 
         public static void activateButton_Left()
         {
-            _activated = true;
+            if (_activated) _activated = true;
+            else _activated = false;
         }
 
         protected override void LoadContent()

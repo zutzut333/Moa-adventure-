@@ -47,12 +47,24 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
-
-            if (Button_Up._activated == true)
+            if ((positionX == 1 || positionX == 2) && positionY==7)
             {
-                moveRight();
-                Button_Up._activated = false;
+                if (Button_Up._activated == true)
+                {
+                    moveRight();
+                    Button_Up._activated = false;
+                }
             }
+            else moveLeft();
+            if ((positionX == 13 || positionX == 14) && positionY == 6)
+            {
+                if ((Button_Left._activated == true && Button_Right._activated == true)|| (Button_Left._activated == false && Button_Right._activated == false))
+                {
+                    moveRight();
+                    Button_Up._activated = false;
+                }
+            }
+            else moveLeft();
 
             Draw(gameTime);
             base.Update(gameTime);
