@@ -93,7 +93,7 @@ namespace MoaAdventure
                     if (distance < 0.8 && distance != 0)
                     {
                         //si c'est un mur ou une porte
-                        if (entity.IdLetter == 23  || entity.IdLetter == 19)
+                        if (entity.IdLetter == 23  || entity.IdLetter == 19 || entity.IdLetter == 7)
                         {
                             //la position revient à sa situation d'entrée dans move'
 
@@ -125,19 +125,19 @@ namespace MoaAdventure
 
                         }
                         // button Up
-                        if( this.idLetter == 2)
+                        if( entity.IdLetter == 2)
                         {
                             Button_Up.activateButton_Up();
                         }
 
                         // button right
-                        if (this.idLetter == 12)
+                        if (entity.IdLetter == 12)
                         {
                             Button_Right.activateButton_Right();
                         }
 
                         // button left
-                        if (this.idLetter == 14)
+                        if (entity.IdLetter == 14)
                         {
                             Button_Left.activateButton_Left();
                         }

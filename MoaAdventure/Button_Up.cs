@@ -26,7 +26,8 @@ namespace MoaAdventure
 
         public static void activateButton_Up()
         {
-            _activated = true;
+            if(_activated)  _activated = false;
+            else _activated = true;
         }
 
 
