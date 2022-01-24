@@ -8,7 +8,7 @@ namespace MoaAdventure
 {
     class Button_Left: Entity
     {
-        private bool _activated;
+        public static bool _activated;
         private int _Idletter;
         private double _positionX;
         private double _positionY;
@@ -22,6 +22,11 @@ namespace MoaAdventure
             _positionX = PositionX;
             _positionY = PositionY;
             LoadContent();
+        }
+
+        public static void activateButton_Left()
+        {
+            _activated = true;
         }
 
         protected override void LoadContent()

@@ -25,7 +25,7 @@ namespace MoaAdventure
                 case 2:
                     Button_Up button_Up = new Button_Up(game, idletter, column, line);
                     button_Up.DefineTexture("");
-                    button_Up.DefineName("Button");
+                    button_Up.DefineName("Button_Up");
                     game.Components.Add(button_Up);
                     break;
 
@@ -92,7 +92,7 @@ namespace MoaAdventure
                 case 12:
                     Button_Right button_right = new Button_Right(game, idletter, column, line);
                     button_right.DefineTexture("");
-                    button_right.DefineName("Button");
+                    button_right.DefineName("Button_Right");
                     game.Components.Add(button_right);
                     break;
 
@@ -106,7 +106,7 @@ namespace MoaAdventure
                 case 14:
                     Button_Left button_left = new Button_Left(game, idletter, column, line);
                     button_left.DefineTexture("");
-                    button_left.DefineName("Button");
+                    button_left.DefineName("Button_Left");
                     game.Components.Add(button_left);
                     break;
 

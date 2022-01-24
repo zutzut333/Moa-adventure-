@@ -124,7 +124,23 @@ namespace MoaAdventure
                             _entity = entity;
 
                         }
-                        
+                        // button Up
+                        if( this.idLetter == 2)
+                        {
+                            Button_Up.activateButton_Up();
+                        }
+
+                        // button right
+                        if (this.idLetter == 12)
+                        {
+                            Button_Right.activateButton_Right();
+                        }
+
+                        // button left
+                        if (this.idLetter == 14)
+                        {
+                            Button_Left.activateButton_Left();
+                        }
 
                         //si c'est le hero qui move et si c'est (un monstre ou un trap)
                         if (
@@ -144,6 +160,8 @@ namespace MoaAdventure
             if (_entity != null) {
                 supressItem();
                     };
+
+            
 
             this.positionX = positionX;
             this.positionY = positionY;

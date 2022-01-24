@@ -25,6 +25,16 @@ namespace MoaAdventure
             LoadContent();
         }
 
+        public void moveRight()
+        {
+            _positionX = _positionX + 128;
+        }
+
+        public void moveLeft()
+        {
+            _positionX = _positionX - 128;
+        }
+
         protected override void LoadContent()
         {
             _WallTexture = new List<Texture2D>()
@@ -37,6 +47,12 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
+
+            if (Button_Up._activated == true)
+            {
+                moveRight();
+                Button_Up._activated = false;
+            }
 
             Draw(gameTime);
             base.Update(gameTime);

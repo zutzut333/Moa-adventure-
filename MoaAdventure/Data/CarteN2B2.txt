@@ -6,5 +6,5 @@
 H-S--SSSS---GG
 GGS--SE-S-----
 --S--S--SSSS--
---S--T-----S-T
-B-ST----D--STB
+--S--T-----S--
+N-ST----D--STL
