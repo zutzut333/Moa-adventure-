@@ -14,6 +14,8 @@ namespace MoaAdventure
         private double _positionY;
         private List<Texture2D> _HurtTexture;
         private SpriteBatch _spriteBatch;
+        bool init = true;
+        bool wayDown;
 
         public Hurted_Octopus(Game game, int IdLetter, double positionX, double positionY,int textureSense) : base(game, IdLetter, positionX, positionY,textureSense)
         {
@@ -35,7 +37,23 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
+            if (init)
+            {
+                wayDown = true;
+                init = false;
+            }
+            if (wayDown)
+            {
 
+                if (this._positionY == this.Move("down", _positionX, _positionY, gameTime).Item2) wayDown = false;
+                else this._positionY = this.Move("down", _positionX, _positionY, gameTime).Item2;
+            }
+            else
+            {
+
+                if (this._positionY == this.Move("up", _positionX, _positionY, gameTime).Item2) wayDown = true;
+                else this._positionY = this.Move("up", _positionX, _positionY, gameTime).Item2;
+            }
             Draw(gameTime);
             base.Update(gameTime);
 

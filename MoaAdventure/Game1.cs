@@ -14,19 +14,18 @@ namespace MoaAdventure
         public const int WINDOW_HEIGHT = 10 * 64;
         public static GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        private bool test = false;
 
 
         private List<string> direction;
 
-
+        public static int _octopusLifeNumber=3;
         public static int _lifeNumber;
-        public static int ActualLevel =1 ;
+        public static int ActualLevel =4;
 
         private Texture2D _mainTexture;
         public Map _actualMap;
         public static bool isDoorPassed = true;
-        private List<Texture2D> _TextPathList;
+
         private List<Texture2D> _backgroundsPathList;
         private List<Entity> _createdEntity;
 
@@ -60,12 +59,6 @@ namespace MoaAdventure
                 Content.Load < Texture2D > ("Sprites/background_champs"),
                 Content.Load < Texture2D > ("Sprites/background_fortress") };
 
-            _TextPathList = new List<Texture2D>()
-            { Content.Load<Texture2D>("PngTexte/Level1"),
-                Content.Load < Texture2D > ("PngTexte/Level2"),
-                Content.Load < Texture2D > ("PngTexte/Level3"),
-                Content.Load < Texture2D > ("PngTexte/Level4") };
-
             _spriteBatch = new SpriteBatch(GraphicsDevice);
            
             // TODO: use this.Content to load your game content here
@@ -73,29 +66,18 @@ namespace MoaAdventure
 
         protected override void Update(GameTime gameTime)
         {
-            if (Input.PlayerDown)
-            {
-                test = true;
-            }
-
-
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (test == false)
-            {
-                _mainTexture = _TextPathList[0];
-                _actualMap = new LevelLoader("../../../Data/EmptyMap.txt").map;
-            }
-            else if (isDoorPassed == true && test == true);
-            { 
+           if( isDoorPassed == true ){ 
                switch (ActualLevel)
                 {
                     case 1:
-                       
+
+
                         _mainTexture = _backgroundsPathList[0]; 
                         _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;
-                       // Debug.WriteLine(_actualMap.TileIdAt(12,0));
+                        Debug.WriteLine(_actualMap.TileIdAt(12,0));
                         break;
                     case 2:
                         _mainTexture = _backgroundsPathList[1];
@@ -111,21 +93,20 @@ namespace MoaAdventure
                         break;
                 }
 
-                /*     for (int line = 0; line < _actualMap.Height; line++)
-                     {
-                         for (int column = 0; column < _actualMap.Width; column++)
-                         {
-                             new CreateEntity(this, _actualMap.TileIdAt(column, line), column, line, gameTime, ActualLevel);
+               for (int line = 0; line < _actualMap.Height; line++)
+               {
+                   for (int column = 0; column < _actualMap.Width; column++)
+                   {
+                       new CreateEntity(this, _actualMap.TileIdAt(column, line), column, line, gameTime, ActualLevel);
 
-                         }
-                     }
+                   }
+               }
 
-                      isDoorPassed = false;
+                isDoorPassed = false;
 
-                */
-            }
+           }
 
-
+           
 
             base.Update(gameTime);
         }
