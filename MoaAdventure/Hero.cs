@@ -25,16 +25,12 @@ namespace MoaAdventure
             _positionX = PositionX;
             _positionY = PositionY;
             LoadContent();
-<<<<<<< Updated upstream
-            
-            _textureSense = textureSense;
 
-=======
             
             _textureSense = textureSense;
             
            
->>>>>>> Stashed changes
+
         }
         
 
@@ -56,18 +52,14 @@ namespace MoaAdventure
         public static void Die(Game game, int cause,Entity   deadCreature) 
         { 
             Game1._lifeNumber--;
+            //LifeDecreased(cause);
             if (_lifeNumber == 0) 
             {
                 Game1.ActualLevel = 1;
                 
                 //GameOver();
             }
-            else 
-            {
-                //LifeDecreased(cause);
-                
-                 
-            }
+            
             game.Components.Clear();
             Game1.isDoorPassed = true;
         }

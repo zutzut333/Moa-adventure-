@@ -18,17 +18,10 @@ namespace MoaAdventure
 
         private List<string> direction;
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        public static int ActualLevel =3 ;
-=======
+
         public static int _lifeNumber;
         public static int ActualLevel =1 ;
->>>>>>> Stashed changes
-=======
-        public static int _lifeNumber;
-        public static int ActualLevel =1 ;
->>>>>>> Stashed changes
+
         private Texture2D _mainTexture;
         public Map _actualMap;
         public static bool isDoorPassed = true;
