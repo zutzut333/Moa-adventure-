@@ -18,10 +18,10 @@ namespace MoaAdventure
 
         private List<string> direction;
 
-        public int ActualLevel =1 ;
+        public int ActualLevel =2 ;
         private Texture2D _mainTexture;
         public Map _actualMap;
-        public bool isDoorPassed = true;
+        public static bool isDoorPassed = true;
 
         private List<Texture2D> _backgroundsPathList;
         private List<Entity> _createdEntity;
@@ -37,6 +37,7 @@ namespace MoaAdventure
            _createdEntity = new List<Entity>();
 
         }
+
 
         protected override void Initialize()
         {

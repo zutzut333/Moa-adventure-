@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using static MoaAdventure.Game1;
 
+
 namespace MoaAdventure
 {
     class Creature : Entity
@@ -78,12 +79,12 @@ namespace MoaAdventure
                     distance = Math.Sqrt(Math.Pow(MathHelper.Distance((float)positionX, (float)entity.positionX), 2) + Math.Pow(MathHelper.Distance((float)positionY, (float)entity.positionY), 2));
                     if (distance < 1 && distance != 0)
                     {
-                        if (entity.IdLetter == 23||entity.IdLetter==4) 
+                        if (entity.IdLetter == 23 || entity.IdLetter == 4 || entity.IdLetter == 19)
                         {
                             positionY = basicPositionY;
                             positionX = basicPositionX;
                         }
-                        if (this.idLetter == 8 && (entity.IdLetter == 1||entity.IdLetter==11||entity.IdLetter==13|| entity.IdLetter == 20))Hero.Die();
+                        if (this.idLetter == 8 && (entity.IdLetter == 1 || entity.IdLetter == 11 || entity.IdLetter == 13 || entity.IdLetter == 20))Hero.Die(entity.IdLetter, this); 
                     }
                 }
 
