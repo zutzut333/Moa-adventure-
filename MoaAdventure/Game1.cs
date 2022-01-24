@@ -18,7 +18,7 @@ namespace MoaAdventure
 
         private List<string> direction;
 
-        public int ActualLevel =2 ;
+        public static int ActualLevel =2 ;
         private Texture2D _mainTexture;
         public Map _actualMap;
         public static bool isDoorPassed = true;

@@ -55,12 +55,14 @@ namespace MoaAdventure
             _lifeNumber--;
             if (_lifeNumber == 0) 
             {
+                Game1.ActualLevel = 1;
+                Game1.isDoorPassed = true;
                 //GameOver();
             }
             else 
             {
                 //LifeDecreased(cause);
-                Game.Components.RemoveAt(Game.Components.IndexOf(deadCreature));
+                //Game.Components.RemoveAt(Game.Components.IndexOf(deadCreature));
                 Game1.isDoorPassed = true; 
             }
         }
