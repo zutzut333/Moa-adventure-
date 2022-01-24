@@ -116,7 +116,7 @@ namespace MoaAdventure
 
                         }
 
-                        if( entity.IdLetter == 3 || entity.IdLetter == 5 || entity.IdLetter == 18)
+                        if( this.idLetter==8&&(entity.IdLetter == 3 || entity.IdLetter == 5 || entity.IdLetter == 18))
                         {
                             Door.doorUnlocked();
                             _entity = entity;
@@ -138,18 +138,13 @@ namespace MoaAdventure
 
                 
             }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
             if (_entity != null) {
                 supressItem();
                     };
 
-=======
-                
->>>>>>> Stashed changes
-=======
-                
->>>>>>> Stashed changes
+            this.positionX = positionX;
+            this.positionY = positionY;
                 return (positionX,positionY);
                 
                 

@@ -35,10 +35,12 @@ namespace MoaAdventure
         public double positionX
         {
             get { return PositionX; }
+            set { PositionX = value; }
         }
         public double positionY
         {
             get { return PositionY; }
+            set { PositionY = value; }
         }
         public int IdLetter
         {
