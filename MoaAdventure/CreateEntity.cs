@@ -54,6 +54,7 @@ namespace MoaAdventure
                     Hurted_Octopus hurt = new Hurted_Octopus(game, idletter, column, line,0);
                     hurt.DefineTexture("");
                     hurt.DefineName("Hurt");
+                    hurt.DefineSpeed(7);
                     game.Components.Add(hurt);
                     break;
 
@@ -115,7 +116,7 @@ namespace MoaAdventure
                     Octopus octopus = new Octopus(game, idletter, column, line,0);
                     octopus.DefineTexture("");
                     octopus.DefineName("Octopus");
-                    octopus.DefineSpeed(100);
+                    octopus.DefineSpeed(7);
                     game.Components.Add(octopus);
                     break;
 

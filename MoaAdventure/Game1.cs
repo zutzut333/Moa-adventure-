@@ -18,9 +18,9 @@ namespace MoaAdventure
 
         private List<string> direction;
 
-
+        public static int _octopusLifeNumber=3;
         public static int _lifeNumber;
-        public static int ActualLevel =2 ;
+        public static int ActualLevel =4;
 
         private Texture2D _mainTexture;
         public Map _actualMap;
