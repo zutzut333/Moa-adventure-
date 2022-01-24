@@ -20,12 +20,12 @@ namespace MoaAdventure
 
 
         public static int _lifeNumber;
-        public static int ActualLevel =2 ;
+        public static int ActualLevel =1 ;
 
         private Texture2D _mainTexture;
         public Map _actualMap;
         public static bool isDoorPassed = true;
-
+        private List<Texture2D> _TextPathList;
         private List<Texture2D> _backgroundsPathList;
         private List<Entity> _createdEntity;
 
@@ -59,6 +59,12 @@ namespace MoaAdventure
                 Content.Load < Texture2D > ("Sprites/background_champs"),
                 Content.Load < Texture2D > ("Sprites/background_fortress") };
 
+            _TextPathList = new List<Texture2D>()
+            { Content.Load<Texture2D>("PngTexte/Level1"),
+                Content.Load < Texture2D > ("PngTexte/Level2"),
+                Content.Load < Texture2D > ("PngTexte/Level3"),
+                Content.Load < Texture2D > ("PngTexte/Level4") };
+
             _spriteBatch = new SpriteBatch(GraphicsDevice);
            
             // TODO: use this.Content to load your game content here
@@ -73,7 +79,11 @@ namespace MoaAdventure
                switch (ActualLevel)
                 {
                     case 1:
-
+                        
+                        while (Input.ExitRequested)
+                        {
+                            _mainTexture = _TextPathList[0];
+                        }
 
                         _mainTexture = _backgroundsPathList[0]; 
                         _actualMap = new LevelLoader("../../../Data/CarteN1B1.txt").map;

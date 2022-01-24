@@ -470,4 +470,8 @@ C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.dll
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.pdb
 C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.genruntimeconfig.cache
-C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level1.xnb
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level2.xnb
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level3.xnb
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level4.xnb
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level5.xnb
