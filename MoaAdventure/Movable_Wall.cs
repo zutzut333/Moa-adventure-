@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace MoaAdventure
 {
 
-    class Movable_Wall_Left : Entity
+    class Movable_Wall_Right : Entity
     {
         private int _Idletter;
         private double _positionX;
@@ -16,7 +16,7 @@ namespace MoaAdventure
         private List<Texture2D> _WallTexture;
         private SpriteBatch _spriteBatch;
 
-        public Movable_Wall_Left(Game game, int IdLetter, double positionX, double positionY, int ActualLevel) : base(game, IdLetter, positionX, positionY)
+        public Movable_Wall_Right(Game game, int IdLetter, double positionX, double positionY, int ActualLevel) : base(game, IdLetter, positionX, positionY)
         {
             _Idletter = IdLetter;
             _positionX = PositionX;
@@ -25,14 +25,14 @@ namespace MoaAdventure
             LoadContent();
         }
 
-        private void moveRight()
+        public void moveRight()
         {
-            _positionX = _positionX * 128;
+            positionX = positionX + 3*64;
         }
 
         public void moveLeft()
         {
-            _positionX = _positionX - 128;
+            positionX = positionX - 3*64;
         }
 
         protected override void LoadContent()
@@ -47,12 +47,24 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
-
-            if(Button_Up._activated == true)
+            if ((positionX == 1 || positionX == 2) && positionY==7)
             {
-                moveRight();
-                Button_Up._activated = false;
+                if (Button_Up._activated == true)
+                {
+                    moveRight();
+                    Button_Up._activated = false;
+                }
             }
+            else moveLeft();
+            if ((positionX == 13 || positionX == 14) && positionY == 6)
+            {
+                if ((Button_Left._activated == true && Button_Right._activated == true)|| (Button_Left._activated == false && Button_Right._activated == false))
+                {
+                    moveRight();
+                    Button_Up._activated = false;
+                }
+            }
+            else moveLeft();
 
             Draw(gameTime);
             base.Update(gameTime);
