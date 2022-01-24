@@ -64,10 +64,8 @@ namespace MoaAdventure
             {
                 this._positionX = this.Move(direction, _positionX, _positionY, gameTime).Item1;
                 if (direction == "left") _textureSense = 2;
-                else 
-                { 
-                    _textureSense = 3; 
-                }
+                else  _textureSense = 3; 
+                
             }
             if (count != 20) count++;
             else count = 0;

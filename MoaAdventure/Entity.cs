@@ -19,6 +19,8 @@ namespace MoaAdventure
             idLetter = IdLetter;
             PositionY = positionY;
             PositionX = positionX;
+
+            
         }
 
         public void DefineTexture(string texture)
@@ -30,5 +32,18 @@ namespace MoaAdventure
         {
             _name = name;
         }
+        public double positionX
+        {
+            get { return PositionX; }
+        }
+        public double positionY
+        {
+            get { return PositionY; }
+        }
+        public int IdLetter
+        {
+            get { return idLetter; }
+        }
+
     }
 }

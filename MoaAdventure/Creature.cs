@@ -33,9 +33,9 @@ namespace MoaAdventure
             public (double, double) Move(string direction,double positionX, double positionY,GameTime gameTime) 
             {
             double time;
-
-
-            if (this.idLetter == 8) time = gameTime.ElapsedGameTime.TotalSeconds;
+            double basicPositionX = positionX;
+            double basicPositionY = positionY;
+            if (this.idLetter == 8||this.idLetter==11) time = gameTime.ElapsedGameTime.TotalSeconds;
             else time = 0.02;
             
                 
@@ -69,6 +69,25 @@ namespace MoaAdventure
                 if (positionY * 64 > _graphics.PreferredBackBufferHeight - 64)
                     positionY = (_graphics.PreferredBackBufferHeight - 64) / 64;
                 else if (positionY < 0)positionY = 0;
+
+                foreach (Entity entity in Game.Components)
+                {
+                if (Game.Components.IndexOf(this) != Game.Components.IndexOf(entity)) 
+                {
+                    double distance;
+                    distance = Math.Sqrt(Math.Pow(MathHelper.Distance((float)positionX, (float)entity.positionX), 2) + Math.Pow(MathHelper.Distance((float)positionY, (float)entity.positionY), 2));
+                    if (distance < 1 && distance != 0)
+                    {
+                        if (entity.IdLetter == 23||entity.IdLetter==4) 
+                        {
+                            positionY = basicPositionY;
+                            positionX = basicPositionX;
+                        }
+                    }
+                }
+
+
+            }
                 return (positionX,positionY);
                 
                 
