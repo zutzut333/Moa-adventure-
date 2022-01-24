@@ -1,7 +1,0 @@
-Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/nathanael.collaud/source/repos/testMG/Content/ball.png","C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1314301
-"C:/Users/nathanael.collaud/source/repos/testMG/Content/ball2.png","C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/ball2.xnb","TextureProcessor","Texture2DContent",8368,16469,0.0019904
-"C:/Users/nathanael.collaud/source/repos/testMG/Content/File.spritefont","C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/File.xnb","FontDescriptionProcessor","SpriteFontContent",2008,70690,0.0877873
-"C:/Users/nathanael.collaud/source/repos/testMG/Content/Perso test.png","C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/Perso test.xnb","TextureProcessor","Texture2DContent",765,16469,0.0029439
-"C:/Users/nathanael.collaud/source/repos/testMG/Content/terre.png","C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/terre.xnb","TextureProcessor","Texture2DContent",30240,262229,0.0115833
-"C:/Users/nathanael.collaud/source/repos/testMG/Content/woodenfloor.jpg","C:/Users/nathanael.collaud/source/repos/testMG/Content/bin/Windows/woodenfloor.xnb","TextureProcessor","Texture2DContent",418992,14745685,0.3293562
