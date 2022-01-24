@@ -46,6 +46,7 @@ namespace MoaAdventure
             base.LoadContent();
         }
 
+        public static void Die() { }
         public override void Update(GameTime gameTime)
         {
             

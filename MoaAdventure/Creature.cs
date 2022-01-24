@@ -83,6 +83,7 @@ namespace MoaAdventure
                             positionY = basicPositionY;
                             positionX = basicPositionX;
                         }
+                        if (this.idLetter == 8 && (entity.IdLetter == 1||entity.IdLetter==11||entity.IdLetter==13|| entity.IdLetter == 20))Hero.Die();
                     }
                 }
 
