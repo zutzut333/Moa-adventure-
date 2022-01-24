@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace MoaAdventure
 {
-    class Button : Entity
+    class Button_Up : Entity
     {
         private bool _activated;
         private int _Idletter;
@@ -15,7 +15,7 @@ namespace MoaAdventure
         private List<Texture2D> _ButtonTexture;
         private SpriteBatch _spriteBatch;
 
-        public Button(Game game, int IdLetter, double positionX, double positionY) : base(game, IdLetter, positionX, positionY)
+        public Button_Up(Game game, int IdLetter, double positionX, double positionY) : base(game, IdLetter, positionX, positionY)
         {
             _activated = false;
             _Idletter = IdLetter;

@@ -23,10 +23,10 @@ namespace MoaAdventure
                     break;
 
                 case 2:
-                    Button button = new Button(game, idletter, column, line);
-                    button.DefineTexture("");
-                    button.DefineName("Button");
-                    game.Components.Add(button);
+                    Button_Up button_Up = new Button_Up(game, idletter, column, line);
+                    button_Up.DefineTexture("");
+                    button_Up.DefineName("Button");
+                    game.Components.Add(button_Up);
                     break;
 
                 case 3:
@@ -57,12 +57,27 @@ namespace MoaAdventure
                     game.Components.Add(hurt);
                     break;
 
+                case 7:
+                    Movable_Wall_Right movable_wall_left = new Movable_Wall_Right(game, idletter, column, line, 0);
+                    movable_wall_left.DefineTexture("");
+                    movable_wall_left.DefineName("Hurt");
+                    game.Components.Add(movable_wall_left);
+                    break;
+
+
                 case 8:
                     Hero hero = new Hero(game, idletter, column, line,1);
                     hero.DefineTexture("");
                     hero.DefineName("Hero");
                     hero.DefineSpeed(10);
                     game.Components.Add(hero);
+                    break;
+
+                case 9:
+                    Movable_Wall_Right movable_wall_right = new Movable_Wall_Right(game, idletter, column, line, 0);
+                    movable_wall_right.DefineTexture("");
+                    movable_wall_right.DefineName("Hurt");
+                    game.Components.Add(movable_wall_right);
                     break;
 
                 case 11:
@@ -74,12 +89,27 @@ namespace MoaAdventure
                     game.Components.Add(knight);
                     break;
 
+                case 12:
+                    Button_Right button_right = new Button_Right(game, idletter, column, line);
+                    button_right.DefineTexture("");
+                    button_right.DefineName("Button");
+                    game.Components.Add(button_right);
+                    break;
+
                 case 13:
                     Trap mine = new Trap(game, idletter, column, line, "mine");
                     mine.DefineTexture("");
                     mine.DefineName("Mine");
                     game.Components.Add(mine);
                     break;
+
+                case 14:
+                    Button_Left button_left = new Button_Left(game, idletter, column, line);
+                    button_left.DefineTexture("");
+                    button_left.DefineName("Button");
+                    game.Components.Add(button_left);
+                    break;
+
 
                 case 15:
                     Octopus octopus = new Octopus(game, idletter, column, line,0);
