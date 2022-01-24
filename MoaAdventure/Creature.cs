@@ -102,7 +102,16 @@ namespace MoaAdventure
 
                         if(entity.IdLetter == 4)
                         {
-                            // si hero + item passe sinon comme au dessus 
+                            // si hero + item passe sinon comme au dessus
+                            if(Door._lock == false)
+                            {
+                                Door.changeLevel();
+                            }
+                            else
+                            {
+                                positionY = basicPositionY;
+                                positionX = basicPositionX;
+                            }
 
 
                         }

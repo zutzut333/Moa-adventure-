@@ -13,7 +13,7 @@ namespace MoaAdventure
         private double _positionY;
         private List<Texture2D> _porteMagique;
         private SpriteBatch _spriteBatch;
-        private static bool _lock = true;
+        public static bool _lock = true;
 
         public Door(Game game, int IdLetter, double positionX, double positionY) : base(game, IdLetter, positionX, positionY)
         {
@@ -29,13 +29,10 @@ namespace MoaAdventure
             
         }
 
-        public void changeLevel() {
+        public static void changeLevel() {
         
-        if(_lock == false)
-            {
                 // code de changement de carte
-            }
-
+            
         }
 
         protected override void LoadContent()
