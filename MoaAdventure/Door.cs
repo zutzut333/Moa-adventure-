@@ -35,6 +35,7 @@ namespace MoaAdventure
 
             Game1.isDoorPassed = true;
             Game1.ActualLevel++;
+            _lock = true;
             _game.Components.Clear();
             
         }

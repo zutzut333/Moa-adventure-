@@ -480,3 +480,4 @@ C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp
 C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level3.xnb
 C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level4.xnb
 C:\Users\tanol\Documents\GitHub\Moa-adventure-\MoaAdventure\bin\Debug\netcoreapp3.1\Content\PngTexte\Level5.xnb
+C:\Users\user\Documents\GitHub\Moa-adventure-\MoaAdventure\obj\Debug\netcoreapp3.1\MoaAdventure.csproj.AssemblyReference.cache
