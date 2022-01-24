@@ -106,6 +106,7 @@ namespace MoaAdventure
                             if(Door._lock == false)
                             {
                                 Door.changeLevel();
+                                break;
                             }
                             else
                             {

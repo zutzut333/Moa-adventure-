@@ -14,6 +14,7 @@ namespace MoaAdventure
         private List<Texture2D> _porteMagique;
         private SpriteBatch _spriteBatch;
         public static bool _lock = true;
+        private static Game _game;
 
         public Door(Game game, int IdLetter, double positionX, double positionY) : base(game, IdLetter, positionX, positionY)
         {
@@ -21,6 +22,7 @@ namespace MoaAdventure
             _positionX = PositionX;
             _positionY = PositionY;
             LoadContent();
+            _game = game;
         }
 
         public static void doorUnlocked()
@@ -30,8 +32,10 @@ namespace MoaAdventure
         }
 
         public static void changeLevel() {
-        
-                // code de changement de carte
+
+            Game1.isDoorPassed = true;
+            Game1.ActualLevel++;
+            _game.Components.Clear();
             
         }
 

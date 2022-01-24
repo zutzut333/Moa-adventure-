@@ -20,7 +20,7 @@ namespace MoaAdventure
 
 
         public static int _lifeNumber;
-        public static int ActualLevel =1 ;
+        public static int ActualLevel =2 ;
 
         private Texture2D _mainTexture;
         public Map _actualMap;
