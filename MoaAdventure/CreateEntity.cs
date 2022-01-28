@@ -61,7 +61,7 @@ namespace MoaAdventure
                 case 7:
                     Movable_Wall movable_wall = new Movable_Wall(game, idletter, column, line, 0);
                     movable_wall.DefineTexture("");
-                    movable_wall.DefineName("Hurt");
+                    movable_wall.DefineName("Movable Wall");
                     game.Components.Add(movable_wall);
                     break;
 

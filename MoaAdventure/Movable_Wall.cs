@@ -15,6 +15,8 @@ namespace MoaAdventure
         private int _actualLevel;
         private List<Texture2D> _WallTexture;
         private SpriteBatch _spriteBatch;
+        bool positionLeft;
+        Game game;
 
         public Movable_Wall(Game game, int IdLetter, double positionX, double positionY, int ActualLevel) : base(game, IdLetter, positionX, positionY)
         {
@@ -22,19 +24,33 @@ namespace MoaAdventure
             _positionX = PositionX;
             _positionY = PositionY;
             _actualLevel = ActualLevel;
-            LoadContent();
+            if ((positionX == 0 || positionX == 1) && positionY == 6) positionLeft = true;
+            else if ((positionX == 12 || positionX == 13) && positionY == 5) positionLeft = false;
+            
+                LoadContent();
         }
 
         public void moveRight()
         {
-            positionX = positionX + 3*64;
+            foreach (Entity entity in Game.Components)
+            {
+                if (((positionX == 0 || positionX == 1) && positionY == 6) || ((positionX == 12 || positionX == 13) && positionY == 5)) this.positionX = positionX + 3;
+
+
+            }
         }
 
         public void moveLeft()
         {
-            positionX = positionX - 3*64;
-        }
+            foreach (Entity entity in Game.Components)
+            {
+                if (((positionX == 0 || positionX == 1) && positionY == 6) || ((positionX == 12 || positionX == 13) && positionY == 5)) this.positionX = positionX - 3;
 
+
+            }
+            
+        }
+        
         protected override void LoadContent()
         {
             _WallTexture = new List<Texture2D>()
@@ -47,24 +63,28 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
-            if ((positionX == 1 || positionX == 2) && positionY==7)
+            if ((positionX == 0 || positionX == 1) && positionY==6 )
             {
-                if (Button_Up._activated == true)
+                if (Button_Up._activated == true && positionLeft)
                 {
                     moveRight();
                     Button_Up._activated = false;
+                    positionLeft = false;
                 }
+                else if (Button_Up._activated == false && !positionLeft) moveLeft();
             }
-            else moveLeft();
-            if ((positionX == 13 || positionX == 14) && positionY == 6)
+            
+            if ((positionX == 12 || positionX == 13) && positionY == 5 )
             {
-                if ((Button_Left._activated == true && Button_Right._activated == true)|| (Button_Left._activated == false && Button_Right._activated == false))
+                if (((Button_Left._activated == true && Button_Right._activated == true)|| (Button_Left._activated == false && Button_Right._activated == false)) && !positionLeft)
                 {
                     moveRight();
                     Button_Up._activated = false;
+                    positionLeft = true;
                 }
+                else if(((Button_Left._activated == true && Button_Right._activated == true) || (Button_Left._activated == false && Button_Right._activated == false)) && positionLeft) moveLeft();
             }
-            else moveLeft();
+            
 
             Draw(gameTime);
             base.Update(gameTime);

@@ -44,7 +44,7 @@ namespace MoaAdventure
             double basicPositionX = positionX;
             double basicPositionY = positionY;
             if (this.idLetter == 8||this.idLetter==11) time = gameTime.ElapsedGameTime.TotalSeconds;
-            else time = 0.02;
+            else time = 0.019;
             
                 
                 
@@ -90,10 +90,10 @@ namespace MoaAdventure
                     //pythagore
                     distance = Math.Sqrt(Math.Pow(MathHelper.Distance((float)positionX, (float)entity.positionX), 2) + Math.Pow(MathHelper.Distance((float)positionY, (float)entity.positionY), 2));
                     //si la distance vaut moins de 1
-                    if (distance < 0.8 && distance != 0)
+                    if (distance <= 0.8 && distance != 0)
                     {
                         //si c'est un mur ou une porte
-                        if (entity.IdLetter == 23  || entity.IdLetter == 19 || entity.IdLetter == 7)
+                        if (entity.IdLetter == 23  || entity.IdLetter == 19 || entity.IdLetter == 7|| entity.IdLetter == 2|| entity.IdLetter == 12|| entity.IdLetter == 14)
                         {
                             //la position revient à sa situation d'entrée dans move'
 
@@ -124,8 +124,10 @@ namespace MoaAdventure
                             _entity = entity;
 
                         }
+
+
                         // button Up
-                        if( entity.IdLetter == 2)
+                        if (entity.IdLetter == 2)
                         {
                             Button_Up.activateButton_Up();
                         }
@@ -142,13 +144,14 @@ namespace MoaAdventure
                             Button_Left.activateButton_Left();
                         }
 
+
                         //si c'est le hero qui move et si c'est (un monstre ou un trap)
                         if (
                             (this.idLetter == 8 && 
                                 (entity.IdLetter == 1 || entity.IdLetter == 11 || entity.IdLetter == 13 || entity.IdLetter == 15 || entity.IdLetter == 20))||
                             (entity.IdLetter == 8 && (this.idLetter == 1 || this.idLetter == 11 || this.idLetter == 13|| this.idLetter == 15 || this.idLetter == 20)))
                         {
-                            Hero.Die(Game, entity.IdLetter, this);
+                            //Hero.Die(Game, entity.IdLetter, this);
                             break;
                         }
 
