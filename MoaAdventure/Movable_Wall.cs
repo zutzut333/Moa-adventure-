@@ -34,7 +34,7 @@ namespace MoaAdventure
         {
             foreach (Entity entity in Game.Components)
             {
-                if (((positionX == 0 || positionX == 1) && positionY == 6) || ((positionX == 12 || positionX == 13) && positionY == 5)) this.positionX = positionX + 3;
+                if (((positionX == 0 || positionX == 1) && positionY == 6) || ((positionX == 10 || positionX == 9) && positionY == 5)) this.positionX = positionX + 3;
 
 
             }
@@ -44,7 +44,7 @@ namespace MoaAdventure
         {
             foreach (Entity entity in Game.Components)
             {
-                if (((positionX == 0 || positionX == 1) && positionY == 6) || ((positionX == 12 || positionX == 13) && positionY == 5)) this.positionX = positionX - 3;
+                if (((positionX == 3 || positionX == 4) && positionY == 6) || ((positionX == 12 || positionX == 13) && positionY == 5)) this.positionX = positionX - 3;
 
 
             }
@@ -63,7 +63,7 @@ namespace MoaAdventure
 
         public override void Update(GameTime gameTime)
         {
-            if ((positionX == 0 || positionX == 1) && positionY==6 )
+            if (((positionX == 0 || positionX == 1) && positionY==6)|| (((positionX == 9 || positionX == 10) && positionY == 6)))
             {
                 if (Button_Up._activated == true && positionLeft)
                 {
@@ -74,7 +74,7 @@ namespace MoaAdventure
                 else if (Button_Up._activated == false && !positionLeft) moveLeft();
             }
             
-            if ((positionX == 12 || positionX == 13) && positionY == 5 )
+            if (((positionX == 12 || positionX == 13) && positionY == 5 )|| (((positionX == 3 || positionX == 4) && positionY == 5)))
             {
                 if (((Button_Left._activated == true && Button_Right._activated == true)|| (Button_Left._activated == false && Button_Right._activated == false)) && !positionLeft)
                 {
@@ -82,7 +82,7 @@ namespace MoaAdventure
                     Button_Up._activated = false;
                     positionLeft = true;
                 }
-                else if(((Button_Left._activated == true && Button_Right._activated == true) || (Button_Left._activated == false && Button_Right._activated == false)) && positionLeft) moveLeft();
+                else if(((Button_Left._activated == false && Button_Right._activated == true) || (Button_Left._activated == true && Button_Right._activated == false)) && !positionLeft) moveLeft();
             }
             
 
