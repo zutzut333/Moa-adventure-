@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/user/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Chevalier bas.png</SourceFile>
-  <SourceTime>2022-01-20T21:51:47.0839135+01:00</SourceTime>
-  <DestFile>C:/Users/user/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/Chevalier bas.xnb</DestFile>
-  <DestTime>2022-01-24T23:59:21.7903483+01:00</DestTime>
+  <SourceFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/Sprites/Chevalier bas.png</SourceFile>
+  <SourceTime>2023-03-09T14:52:42.5861244+01:00</SourceTime>
+  <DestFile>C:/Users/nathanael.collaud/Documents/GitHub/Moa-adventure-/MoaAdventure/Content/bin/Windows/Content/Sprites/Chevalier bas.xnb</DestFile>
+  <DestTime>2023-03-09T14:55:50.5821242+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
